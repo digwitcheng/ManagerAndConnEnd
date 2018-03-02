@@ -1,0 +1,684 @@
+2018-01-11 09:58:46.1263 INFO  load map success 
+2018-01-11 09:58:51.0474 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 09:58:53.0075 INFO  *--------------------------------------------------------------* 
+2018-01-11 09:58:53.0175 INFO  当前工作小车10辆 
+2018-01-11 09:58:53.0175 INFO  开始运行时间：2018/1/11 9:58:53 
+2018-01-11 10:04:03.4233 INFO  总任务数：0 VehicleManager线程开始 
+2018-01-11 12:10:11.9973 INFO  load map success 
+2018-01-11 12:10:13.7510 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 12:10:13.9210 INFO  *--------------------------------------------------------------* 
+2018-01-11 12:10:13.9310 INFO  当前工作小车10辆 
+2018-01-11 12:10:13.9310 INFO  开始运行时间：2018/1/11 12:10:13 
+2018-01-11 12:10:44.3996 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 393
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 119
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 12:11:54.4681 INFO  总任务数：0 0.00 公里 
+2018-01-11 12:14:31.4286 INFO  load map success 
+2018-01-11 12:14:32.8487 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 12:14:33.0487 INFO  *--------------------------------------------------------------* 
+2018-01-11 12:14:33.0487 INFO  当前工作小车10辆 
+2018-01-11 12:14:33.0487 INFO  开始运行时间：2018/1/11 12:14:33 
+2018-01-11 12:14:52.2932 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 393
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 119
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 12:15:00.2416 INFO  总任务数：0 0.00 公里 
+2018-01-11 12:15:00.4516 ERROR  发送失败 
+2018-01-11 12:15:12.0896 INFO  load map success 
+2018-01-11 12:15:13.1897 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 12:15:13.3097 INFO  *--------------------------------------------------------------* 
+2018-01-11 12:15:13.3097 INFO  当前工作小车10辆 
+2018-01-11 12:15:13.3097 INFO  开始运行时间：2018/1/11 12:15:13 
+2018-01-11 12:17:19.1697 INFO  总任务数：0 VehicleManager线程开始 
+2018-01-11 16:57:07.8931 INFO  load map success 
+2018-01-11 16:57:11.6052 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 16:57:11.9953 ERROR  Session [SessionKey[3e3f3938-7eec-468f-b298-6484336a3149], RemoteEndPoint[192.168.1.4:51206], LocalEndPoint[0.0.0.0:54321]] exception occurred, [无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。]. 
+2018-01-11 16:57:12.1654 ERROR  远程主机强迫关闭了一个现有的连接。 
+2018-01-11 16:57:12.3610 INFO  *--------------------------------------------------------------* 
+2018-01-11 16:57:12.3610 INFO  当前工作小车10辆 
+2018-01-11 16:57:12.3610 INFO  开始运行时间：2018/1/11 16:57:12 
+2018-01-11 16:59:32.1833 INFO  load map success 
+2018-01-11 16:59:33.9444 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 16:59:34.3647 INFO  *--------------------------------------------------------------* 
+2018-01-11 16:59:34.3647 INFO  当前工作小车10辆 
+2018-01-11 16:59:34.3647 INFO  开始运行时间：2018/1/11 16:59:34 
+2018-01-11 17:04:13.8762 INFO  load map success 
+2018-01-11 17:04:16.6478 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 17:04:17.0381 INFO  *--------------------------------------------------------------* 
+2018-01-11 17:04:17.0381 INFO  当前工作小车10辆 
+2018-01-11 17:04:17.0381 INFO  开始运行时间：2018/1/11 17:04:17 
+2018-01-11 17:04:17.1987 ERROR  Session [SessionKey[5384bb06-2b1c-41cf-8d4f-54e57dafd3c1], RemoteEndPoint[192.168.1.4:51358], LocalEndPoint[0.0.0.0:54321]] exception occurred, [无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。]. 
+2018-01-11 17:04:17.3818 ERROR  远程主机强迫关闭了一个现有的连接。 
+2018-01-11 17:04:55.4174 INFO  load map success 
+2018-01-11 17:04:58.3494 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 17:04:58.6896 ERROR  Session [SessionKey[9bb20114-caa4-4fa6-8d76-70e7362882a8], RemoteEndPoint[192.168.1.4:51376], LocalEndPoint[0.0.0.0:54321]] exception occurred, [无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。]. 
+2018-01-11 17:04:58.7700 ERROR  远程主机强迫关闭了一个现有的连接。 
+2018-01-11 17:04:58.8001 INFO  *--------------------------------------------------------------* 
+2018-01-11 17:04:58.8001 INFO  当前工作小车10辆 
+2018-01-11 17:04:58.8001 INFO  开始运行时间：2018/1/11 17:04:58 
+2018-01-11 17:07:24.4043 INFO  load map success 
+2018-01-11 17:07:26.7053 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 17:07:27.0552 INFO  *--------------------------------------------------------------* 
+2018-01-11 17:07:27.0552 INFO  当前工作小车10辆 
+2018-01-11 17:07:27.0552 INFO  开始运行时间：2018/1/11 17:07:27 
+2018-01-11 17:07:27.2938 ERROR  Session [SessionKey[8fe81d46-d2b7-4c63-bb54-88ca508252bb], RemoteEndPoint[192.168.1.4:51482], LocalEndPoint[0.0.0.0:54321]] exception occurred, [无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。]. 
+2018-01-11 17:07:27.3758 ERROR  远程主机强迫关闭了一个现有的连接。 
+2018-01-11 17:10:27.3355 INFO  load map success 
+2018-01-11 17:10:30.7422 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 17:10:30.7422 ERROR  Session [SessionKey[3864b38b-40e4-4051-89de-6bedb70ecd8f], RemoteEndPoint[192.168.1.4:51552], LocalEndPoint[0.0.0.0:54321]] exception occurred, [无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。]. 
+2018-01-11 17:10:30.8072 INFO  *--------------------------------------------------------------* 
+2018-01-11 17:10:31.0173 INFO  当前工作小车10辆 
+2018-01-11 17:10:31.0173 INFO  开始运行时间：2018/1/11 17:10:31 
+2018-01-11 17:10:31.0772 ERROR  远程主机强迫关闭了一个现有的连接。 
+2018-01-11 17:14:09.3891 INFO  load map success 
+2018-01-11 17:14:11.3897 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 17:14:11.4497 INFO  *--------------------------------------------------------------* 
+2018-01-11 17:14:11.4898 INFO  当前工作小车10辆 
+2018-01-11 17:14:11.4898 INFO  开始运行时间：2018/1/11 17:14:11 
+2018-01-11 17:14:12.2300 ERROR  Session [SessionKey[e5f2d095-ee89-4f44-a8b7-1a3d6b001bb8], RemoteEndPoint[192.168.1.4:51786], LocalEndPoint[0.0.0.0:54321]] exception occurred, [无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。]. 
+2018-01-11 17:14:12.6233 ERROR  远程主机强迫关闭了一个现有的连接。 
+2018-01-11 17:15:32.7725 INFO  load map success 
+2018-01-11 17:15:35.7641 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 17:15:35.8241 INFO  *--------------------------------------------------------------* 
+2018-01-11 17:15:35.8766 INFO  当前工作小车10辆 
+2018-01-11 17:15:35.9237 INFO  开始运行时间：2018/1/11 17:15:35 
+2018-01-11 17:16:09.3131 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 396
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 122
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:16:57.7463 INFO  load map success 
+2018-01-11 17:17:01.0673 ERROR  Session [SessionKey[d77b5f7b-0ae9-40b3-a0fe-0fb3ef738d05], RemoteEndPoint[192.168.1.4:51850], LocalEndPoint[0.0.0.0:54321]] exception occurred, [无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。]. 
+2018-01-11 17:17:01.1074 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 17:17:01.3275 ERROR  远程主机强迫关闭了一个现有的连接。 
+2018-01-11 17:17:01.3575 INFO  *--------------------------------------------------------------* 
+2018-01-11 17:17:01.3575 INFO  当前工作小车10辆 
+2018-01-11 17:17:01.3575 INFO  开始运行时间：2018/1/11 17:17:01 
+2018-01-11 17:23:23.2028 INFO  load map success 
+2018-01-11 17:23:25.4438 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 17:23:25.4838 INFO  *--------------------------------------------------------------* 
+2018-01-11 17:23:25.4838 INFO  当前工作小车10辆 
+2018-01-11 17:23:25.4838 INFO  开始运行时间：2018/1/11 17:23:25 
+2018-01-11 17:24:12.2494 INFO  load map success 
+2018-01-11 17:24:14.3505 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 17:24:14.4005 INFO  *--------------------------------------------------------------* 
+2018-01-11 17:24:14.4005 INFO  当前工作小车10辆 
+2018-01-11 17:24:14.4005 INFO  开始运行时间：2018/1/11 17:24:14 
+2018-01-11 17:24:17.3718 INFO  总任务数：0 VehicleManager线程开始 
+2018-01-11 17:27:44.0517 INFO  load map success 
+2018-01-11 17:27:47.2450 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 17:27:47.2920 INFO  *--------------------------------------------------------------* 
+2018-01-11 17:27:47.3050 INFO  当前工作小车10辆 
+2018-01-11 17:27:47.3150 INFO  开始运行时间：2018/1/11 17:27:47 
+2018-01-11 17:27:48.3951 ERROR  Session [SessionKey[799094a4-c2b9-4f41-9761-c6fb8c4d7b3f], RemoteEndPoint[192.168.1.4:52486], LocalEndPoint[0.0.0.0:54321]] exception occurred, [无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。]. 
+2018-01-11 17:34:41.3334 INFO  load map success 
+2018-01-11 17:34:44.6852 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 17:34:44.7252 INFO  *--------------------------------------------------------------* 
+2018-01-11 17:34:44.7352 INFO  当前工作小车10辆 
+2018-01-11 17:34:44.7352 INFO  开始运行时间：2018/1/11 17:34:44 
+2018-01-11 17:34:45.8153 ERROR  Session [SessionKey[ef528fe0-81cb-4a76-9849-72bdf0ac161d], RemoteEndPoint[192.168.1.4:52930], LocalEndPoint[0.0.0.0:54321]] exception occurred, [无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。]. 
+2018-01-11 17:34:45.9453 ERROR  远程主机强迫关闭了一个现有的连接。 
+2018-01-11 17:35:03.3269 INFO  总任务数：0 0.00 公里 
+2018-01-11 17:36:01.1364 INFO  load map success 
+2018-01-11 17:36:04.3379 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 17:36:04.3679 INFO  *--------------------------------------------------------------* 
+2018-01-11 17:36:04.3679 INFO  当前工作小车10辆 
+2018-01-11 17:36:04.3779 INFO  开始运行时间：2018/1/11 17:36:04 
+2018-01-11 17:36:13.4917 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 396
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:36:19.6247 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:36:20.6751 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:36:21.7355 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:36:22.7676 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:36:23.8178 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:36:24.8676 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:36:25.9286 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:36:34.1126 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 396
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:36:43.2001 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:36:44.2807 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:36:45.3722 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:36:46.4838 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:36:47.6042 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:36:48.6846 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:36:49.7669 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:36:57.9023 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:36:59.0024 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:37:00.1033 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:37:01.1937 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:37:02.2238 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:37:03.3044 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:37:04.4248 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:37:05.5653 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:37:06.6758 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:37:30.8781 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:37:31.9485 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:37:32.9892 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:37:34.0399 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:37:35.1202 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:37:36.1911 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:37:51.3277 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:37:52.4524 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:37:53.5083 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:37:54.6693 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:37:55.7301 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:37:56.8006 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:37:57.8810 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:38:55.6660 INFO  load map success 
+2018-01-11 17:38:58.2381 ERROR  Session [SessionKey[32095b98-d55d-4767-ac34-770912eeeab0], RemoteEndPoint[192.168.1.4:53086], LocalEndPoint[0.0.0.0:54321]] exception occurred, [无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。]. 
+2018-01-11 17:38:58.2381 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 17:38:58.4576 ERROR  远程主机强迫关闭了一个现有的连接。 
+2018-01-11 17:38:58.4576 INFO  *--------------------------------------------------------------* 
+2018-01-11 17:38:58.4778 INFO  当前工作小车10辆 
+2018-01-11 17:38:58.4778 INFO  开始运行时间：2018/1/11 17:38:58 
+2018-01-11 17:39:08.6234 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 396
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:39:19.0887 INFO  总任务数：0 0.00 公里 
+2018-01-11 17:42:04.5097 INFO  load map success 
+2018-01-11 17:42:06.5704 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 17:42:06.5909 INFO  *--------------------------------------------------------------* 
+2018-01-11 17:42:06.5909 INFO  当前工作小车10辆 
+2018-01-11 17:42:06.5909 INFO  开始运行时间：2018/1/11 17:42:06 
+2018-01-11 17:42:07.2511 ERROR  Session [SessionKey[ffe9906f-8a28-45ce-a60d-07bdc16dfd7c], RemoteEndPoint[192.168.1.4:53308], LocalEndPoint[0.0.0.0:54321]] exception occurred, [无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。]. 
+2018-01-11 17:42:07.4121 ERROR  远程主机强迫关闭了一个现有的连接。 
+2018-01-11 17:42:45.9519 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:42:47.0725 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:42:48.1335 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:42:49.1841 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:42:50.2244 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:42:51.3149 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:42:52.3645 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 366
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:47:06.4284 INFO  load map success 
+2018-01-11 17:47:09.2192 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 17:47:09.2492 INFO  *--------------------------------------------------------------* 
+2018-01-11 17:47:09.2692 INFO  当前工作小车10辆 
+2018-01-11 17:47:09.2692 INFO  开始运行时间：2018/1/11 17:47:09 
+2018-01-11 17:47:10.4092 ERROR  Session [SessionKey[75e4a409-eb4a-4f84-9c19-a6d495189426], RemoteEndPoint[192.168.1.4:53606], LocalEndPoint[0.0.0.0:54321]] exception occurred, [无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。]. 
+2018-01-11 17:47:10.4732 ERROR  远程主机强迫关闭了一个现有的连接。 
+2018-01-11 17:47:27.4599 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 378
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:47:28.5403 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 371
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:47:29.6110 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 371
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:47:30.6711 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 371
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:47:31.7011 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 371
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:47:32.7341 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 371
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:47:33.7620 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 371
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:47:34.7926 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 371
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:47:35.8130 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 371
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:47:36.9132 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 371
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:47:38.0235 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 371
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:47:39.0736 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 371
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 17:50:25.7747 INFO  load map success 
+2018-01-11 17:50:28.2902 ERROR  Session [SessionKey[e82d2a1c-6ee9-4826-a3a2-0059084cd019], RemoteEndPoint[192.168.1.4:53828], LocalEndPoint[0.0.0.0:54321]] exception occurred, [无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。]. 
+2018-01-11 17:50:28.3727 ERROR  远程主机强迫关闭了一个现有的连接。 
+2018-01-11 17:50:28.7059 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 17:50:28.7259 INFO  *--------------------------------------------------------------* 
+2018-01-11 17:50:28.7259 INFO  当前工作小车10辆 
+2018-01-11 17:50:28.7359 INFO  开始运行时间：2018/1/11 17:50:28 
+2018-01-11 17:53:23.9789 INFO  总任务数：0 0.04 公里 
+2018-01-11 17:53:38.7494 INFO  load map success 
+2018-01-11 17:53:41.6415 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 17:53:41.6615 INFO  *--------------------------------------------------------------* 
+2018-01-11 17:53:41.6615 INFO  当前工作小车10辆 
+2018-01-11 17:53:41.6615 INFO  开始运行时间：2018/1/11 17:53:41 
+2018-01-11 17:54:17.6836 INFO  总任务数：0 0.01 公里 
+2018-01-11 17:55:11.3023 INFO  load map success 
+2018-01-11 17:55:15.1147 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 17:55:15.1647 INFO  *--------------------------------------------------------------* 
+2018-01-11 17:55:15.1752 INFO  当前工作小车10辆 
+2018-01-11 17:55:15.1752 INFO  开始运行时间：2018/1/11 17:55:15 
+2018-01-11 18:00:05.1697 INFO  load map success 
+2018-01-11 18:00:08.3312 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 18:00:08.3612 INFO  *--------------------------------------------------------------* 
+2018-01-11 18:00:08.3612 INFO  当前工作小车10辆 
+2018-01-11 18:00:08.3612 INFO  开始运行时间：2018/1/11 18:00:08 
+2018-01-11 18:00:09.5316 ERROR  Session [SessionKey[b95f6ae9-12f0-457f-aa9d-ef4b62924325], RemoteEndPoint[192.168.1.4:54218], LocalEndPoint[0.0.0.0:54321]] exception occurred, [无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。]. 
+2018-01-11 18:00:09.6716 ERROR  远程主机强迫关闭了一个现有的连接。 
+2018-01-11 18:00:49.4639 INFO  总任务数：0 0.01 公里 
+2018-01-11 18:03:19.4093 INFO  load map success 
+2018-01-11 18:03:22.1209 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 18:03:22.1784 INFO  *--------------------------------------------------------------* 
+2018-01-11 18:03:22.1784 INFO  当前工作小车10辆 
+2018-01-11 18:03:22.1784 INFO  开始运行时间：2018/1/11 18:03:22 
+2018-01-11 18:03:22.4009 ERROR  Session [SessionKey[90718f87-993b-4941-84d0-3bc1aaa6fb83], RemoteEndPoint[192.168.1.4:54420], LocalEndPoint[0.0.0.0:54321]] exception occurred, [无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。]. 
+2018-01-11 18:03:22.5209 ERROR  远程主机强迫关闭了一个现有的连接。 
+2018-01-11 18:03:46.2133 INFO  总任务数：0 VehicleManager线程开始 
+2018-01-11 18:04:20.6239 INFO  load map success 
+2018-01-11 18:04:23.6758 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 18:04:23.7058 INFO  *--------------------------------------------------------------* 
+2018-01-11 18:04:23.7058 INFO  当前工作小车10辆 
+2018-01-11 18:04:23.7368 INFO  开始运行时间：2018/1/11 18:04:23 
+2018-01-11 18:06:13.9627 INFO  load map success 
+2018-01-11 18:06:16.8635 ERROR  Session [SessionKey[3118c0d3-387a-47e7-bef3-b912cffa9f0d], RemoteEndPoint[192.168.1.4:54520], LocalEndPoint[0.0.0.0:54321]] exception occurred, [无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。]. 
+2018-01-11 18:06:16.9635 ERROR  远程主机强迫关闭了一个现有的连接。 
+2018-01-11 18:06:17.2641 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 18:06:17.2841 INFO  *--------------------------------------------------------------* 
+2018-01-11 18:06:17.2841 INFO  当前工作小车10辆 
+2018-01-11 18:06:17.2841 INFO  开始运行时间：2018/1/11 18:06:17 
+2018-01-11 18:07:08.3894 INFO  load map success 
+2018-01-11 18:07:10.3199 ERROR  Session [SessionKey[7956b382-0834-4dec-b6ab-2175aca7ab93], RemoteEndPoint[192.168.1.4:54554], LocalEndPoint[0.0.0.0:54321]] exception occurred, [无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。]. 
+2018-01-11 18:07:10.4405 ERROR  远程主机强迫关闭了一个现有的连接。 
+2018-01-11 18:07:11.1508 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 18:07:11.1908 INFO  *--------------------------------------------------------------* 
+2018-01-11 18:07:11.1908 INFO  当前工作小车10辆 
+2018-01-11 18:07:11.1908 INFO  开始运行时间：2018/1/11 18:07:11 
+2018-01-11 18:07:18.3742 ERROR  VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 381
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 18:07:23.5683 INFO  总任务数：0 VehicleManager线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 AGV_V1._0.Vehicle.Move(ElecMap Elc) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\Vehicle.cs:行号 381
+   在 AGV_V1._0.VehicleManager.Run() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Agv\VehicleManager.cs:行号 124
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-01-11 18:09:42.1732 INFO  load map success 
+2018-01-11 18:09:43.7434 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 18:09:43.7533 INFO  *--------------------------------------------------------------* 
+2018-01-11 18:09:43.7533 INFO  当前工作小车10辆 
+2018-01-11 18:09:43.7533 INFO  开始运行时间：2018/1/11 18:09:43 
+2018-01-11 18:09:44.3136 ERROR  Session [SessionKey[5be7e129-8879-46cf-97ce-a6cb89da319e], RemoteEndPoint[192.168.1.4:54740], LocalEndPoint[0.0.0.0:54321]] exception occurred, [无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。]. 
+2018-01-11 18:09:44.4336 ERROR  远程主机强迫关闭了一个现有的连接。 
+2018-01-11 18:11:44.3940 INFO  load map success 
+2018-01-11 18:11:47.7152 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 18:11:47.7452 INFO  *--------------------------------------------------------------* 
+2018-01-11 18:11:47.7552 INFO  当前工作小车10辆 
+2018-01-11 18:11:47.7552 INFO  开始运行时间：2018/1/11 18:11:47 
+2018-01-11 18:11:48.8044 ERROR  Session [SessionKey[560d5b0f-a6de-41a0-b45c-c78128bec75f], RemoteEndPoint[192.168.1.4:54786], LocalEndPoint[0.0.0.0:54321]] exception occurred, [无法从传输连接中读取数据: 远程主机强迫关闭了一个现有的连接。。]. 
+2018-01-11 18:11:48.8754 ERROR  远程主机强迫关闭了一个现有的连接。 
+2018-01-11 18:13:06.5377 INFO  总任务数：0 0.07 公里 
+2018-01-11 18:24:04.6113 INFO  load map success 
+2018-01-11 18:24:07.5222 ERROR  未知错误:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AGVSocket.Network.Packet.DoneReplyPacket.Receive() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\AgvNetwork\Packet\DoneReplyPacket.cs:行号 42
+   在 AGVSocket.Network.AgvServerManager.server_ClientDataReceived(Object sender, TcpClientDataReceivedEventArgs e) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\Manager\AgvServerManager.cs:行号 84 
+2018-01-11 18:24:07.6428 ERROR  未知错误:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AGVSocket.Network.Packet.DoneReplyPacket.Receive() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\AgvNetwork\Packet\DoneReplyPacket.cs:行号 42
+   在 AGVSocket.Network.AgvServerManager.server_ClientDataReceived(Object sender, TcpClientDataReceivedEventArgs e) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\Manager\AgvServerManager.cs:行号 84 
+2018-01-11 18:24:07.6893 ERROR  未知错误:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AGVSocket.Network.Packet.DoneReplyPacket.Receive() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\AgvNetwork\Packet\DoneReplyPacket.cs:行号 42
+   在 AGVSocket.Network.AgvServerManager.server_ClientDataReceived(Object sender, TcpClientDataReceivedEventArgs e) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\Manager\AgvServerManager.cs:行号 84 
+2018-01-11 18:24:07.7326 ERROR  未知错误:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AGVSocket.Network.Packet.DoneReplyPacket.Receive() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\AgvNetwork\Packet\DoneReplyPacket.cs:行号 42
+   在 AGVSocket.Network.AgvServerManager.server_ClientDataReceived(Object sender, TcpClientDataReceivedEventArgs e) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\Manager\AgvServerManager.cs:行号 84 
+2018-01-11 18:24:07.7626 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 18:24:07.8226 ERROR  未知错误:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AGVSocket.Network.Packet.DoneReplyPacket.Receive() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\AgvNetwork\Packet\DoneReplyPacket.cs:行号 42
+   在 AGVSocket.Network.AgvServerManager.server_ClientDataReceived(Object sender, TcpClientDataReceivedEventArgs e) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\Manager\AgvServerManager.cs:行号 84 
+2018-01-11 18:24:07.8727 ERROR  未知错误:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 AGVSocket.Network.Packet.DoneReplyPacket.Receive() 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\AgvNetwork\Packet\DoneReplyPacket.cs:行号 42
+   在 AGVSocket.Network.AgvServerManager.server_ClientDataReceived(Object sender, TcpClientDataReceivedEventArgs e) 位置 d:\0研究生\AGV\程序2\实体agv\agvManager\Network\Manager\AgvServerManager.cs:行号 84 
+2018-01-11 18:24:07.9227 INFO  *--------------------------------------------------------------* 
+2018-01-11 18:24:07.9847 INFO  当前工作小车10辆 
+2018-01-11 18:24:07.9847 INFO  开始运行时间：2018/1/11 18:24:07 
+2018-01-11 18:25:09.3406 INFO  load map success 
+2018-01-11 18:25:12.4028 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 18:25:12.4428 INFO  *--------------------------------------------------------------* 
+2018-01-11 18:25:12.4428 INFO  当前工作小车10辆 
+2018-01-11 18:25:12.4528 INFO  开始运行时间：2018/1/11 18:25:12 
+2018-01-11 18:28:21.2471 INFO  load map success 
+2018-01-11 18:28:23.3979 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 18:28:23.4179 INFO  *--------------------------------------------------------------* 
+2018-01-11 18:28:23.4279 INFO  当前工作小车10辆 
+2018-01-11 18:28:23.4279 INFO  开始运行时间：2018/1/11 18:28:23 
+2018-01-11 18:30:37.3940 INFO  load map success 
+2018-01-11 18:30:41.0360 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-01-11 18:30:41.0560 INFO  *--------------------------------------------------------------* 
+2018-01-11 18:30:41.0560 INFO  当前工作小车10辆 
+2018-01-11 18:30:41.0560 INFO  开始运行时间：2018/1/11 18:30:41 

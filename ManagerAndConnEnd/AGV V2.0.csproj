@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7FDBA559-787C-4198-BE7F-B2316B0DF700}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AGV_V1._0</RootNamespace>
+    <AssemblyName>AGV V1.0</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">.\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <PublishUrl>发布\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
+    <Reference Include="NLog">
+      <HintPath>packages\NLog.4.4.12\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Agv\Direction.cs" />
+    <Compile Include="Agv\State.cs" />
+    <Compile Include="Algorithm\AstarSearch.cs" />
+    <Compile Include="Algorithm\Close.cs" />
+    <Compile Include="DataBase\DataBseUtil.cs" />
+    <Compile Include="DataBase\Sql.cs" />
+    <Compile Include="DataBase\SqlHelper.cs" />
+    <Compile Include="DataBase\SqlManager.cs" />
+    <Compile Include="Network\AgvNetwork\AgvInfo.cs" />
+    <Compile Include="Network\Manager\AgvServerManager.cs" />
+    <Compile Include="Network\AgvNetwork\CurrentLocation.cs" />
+    <Compile Include="Network\AgvNetwork\Destination.cs" />
+    <Compile Include="Network\AgvNetwork\DriftAngle.cs" />
+    <Compile Include="Network\AgvNetwork\EnumType\AgvDirection.cs" />
+    <Compile Include="Network\AgvNetwork\EnumType\AgvMotionState.cs" />
+    <Compile Include="Network\AgvNetwork\EnumType\AlarmState.cs" />
+    <Compile Include="Network\AgvNetwork\EnumType\ExceptionCode.cs" />
+    <Compile Include="Network\AgvNetwork\EnumType\ObstacleAvoidSwitch.cs" />
+    <Compile Include="Network\AgvNetwork\EnumType\OprationState.cs" />
+    <Compile Include="Network\AgvNetwork\EnumType\OrderExec.cs" />
+    <Compile Include="Network\AgvNetwork\EnumType\PacketType.cs" />
+    <Compile Include="Network\AgvNetwork\EnumType\ResponseState.cs" />
+    <Compile Include="Network\AgvNetwork\EnumType\TrayMotion.cs" />
+    <Compile Include="Network\AgvNetwork\EnumType\TrayState.cs" />
+    <Compile Include="Network\AgvNetwork\Event\MyErrorEventArgs.cs" />
+    <Compile Include="Network\AgvNetwork\Event\PackMessageEventArgs.cs" />
+    <Compile Include="Network\AgvNetwork\MyBitConverter.cs" />
+    <Compile Include="Network\AgvNetwork\MyException\PacketException.cs" />
+    <Compile Include="Network\AgvNetwork\CellPoint.cs" />
+    <Compile Include="Network\AgvNetwork\Packet\AgvInfoPacket.cs" />
+    <Compile Include="Network\AgvNetwork\Packet\AgvResponsePacket.cs" />
+    <Compile Include="Network\AgvNetwork\Packet\BasePacket.cs" />
+    <Compile Include="Network\AgvNetwork\Packet\DoneReplyPacket.cs" />
+    <Compile Include="Network\AgvNetwork\Packet\ErrorPacket.cs" />
+    <Compile Include="Network\AgvNetwork\Packet\ReceiveBasePacket.cs" />
+    <Compile Include="Network\AgvNetwork\Packet\RunPacket.cs" />
+    <Compile Include="Network\AgvNetwork\Packet\SendBasePacket.cs" />
+    <Compile Include="Network\AgvNetwork\Packet\SwervePacket.cs" />
+    <Compile Include="Network\AgvNetwork\Packet\SysResponsePacket.cs" />
+    <Compile Include="Network\AgvNetwork\Packet\TrayPacket.cs" />
+    <Compile Include="Network\Queue\ReSendPacketQueue.cs" />
+    <Compile Include="Network\Queue\SendPacketQueue.cs" />
+    <Compile Include="Network\Server\APM\TcpSocketServer.cs" />
+    <Compile Include="Network\Server\APM\TcpSocketServerConfiguration.cs" />
+    <Compile Include="Network\Server\APM\TcpSocketSession.cs" />
+    <Compile Include="Network\Server\Buffer\BufferValidator.cs" />
+    <Compile Include="Network\Server\Buffer\ISegmentBufferManager.cs" />
+    <Compile Include="Network\Server\Buffer\SegmentBufferDeflector.cs" />
+    <Compile Include="Network\Server\Buffer\SegmentBufferManager.cs" />
+    <Compile Include="Network\Server\Buffer\UnableToAllocateBufferException.cs" />
+    <Compile Include="Network\Server\Buffer\UnableToCreateMemoryException .cs" />
+    <Compile Include="Network\Server\EventArgs\TcpClientConnectedEventArgs.cs" />
+    <Compile Include="Network\Server\EventArgs\TcpClientDataReceivedEventArgs.cs" />
+    <Compile Include="Network\Server\EventArgs\TcpClientDisconnectedEventArgs.cs" />
+    <Compile Include="Network\Server\Framing\Base\FrameBuilder.cs" />
+    <Compile Include="Network\Server\Framing\Base\IFrameBuilder.cs" />
+    <Compile Include="Network\Server\Framing\Base\IFrameDecoder.cs" />
+    <Compile Include="Network\Server\Framing\Base\IFrameEncoder.cs" />
+    <Compile Include="Network\Server\Framing\FixedLengthFrameBuilder.cs" />
+    <Compile Include="Network\Server\Framing\LengthFieldBasedFrameBuilder.cs" />
+    <Compile Include="Network\Server\Framing\LengthPrefixedFrameBuilder.cs" />
+    <Compile Include="Network\Server\Framing\LineBasedFrameBuilder.cs" />
+    <Compile Include="Network\Server\Framing\RawBufferFrameBuilder.cs" />
+    <Compile Include="Network\Server\TcpSocketConnectionState.cs" />
+    <Compile Include="Network\Server\TcpSocketException.cs" />
+    <Compile Include="Network\Messages\FileMessage.cs" />
+    <Compile Include="Network\Messages\MapFileMessage.cs" />
+    <Compile Include="Network\Messages\BaseMessage.cs" />
+    <Compile Include="Network\Messages\ArrivedMessage.cs" />
+    <Compile Include="Network\Messages\AgvFileMessage.cs" />
+    <Compile Include="Network\Messages\MsgMessage.cs" />
+    <Compile Include="Network\Messages\MoveMessage.cs" />
+    <Compile Include="Network\Messages\ReStartMessage.cs" />
+    <Compile Include="Network\Messages\ErrorMessage.cs" />
+    <Compile Include="Network\Messages\DisConnMessage.cs" />
+    <Compile Include="Network\Messages\TextMessage.cs" />
+    <Compile Include="Network\ThreadCode\BaseThread.cs" />
+    <Compile Include="Network\ThreadCode\CheckCongestionThread.cs" />
+    <Compile Include="Network\ThreadCode\ReSendPacketThread.cs" />
+    <Compile Include="Network\ThreadCode\SendPacketThread.cs" />
+    <Compile Include="Network\ThreadCode\TaskReceiveThread.cs" />
+    <Compile Include="Network\ThreadCode\GuiSendThread.cs" />
+    <Compile Include="Network\ThreadCode\TaskSendThread.cs" />
+    <Compile Include="Network\ThreadCode\UpdataSqlThread.cs" />
+    <Compile Include="Remoting\RouteRemoteObject.cs" />
+    <Compile Include="Util\DrawUtil.cs" />
+    <Compile Include="Util\FileUtil.cs" />
+    <Compile Include="Util\ConstDefine.cs" />
+    <Compile Include="Algorithm\Node.cs" />
+    <Compile Include="Agv\CreateStaticRoute.cs" />
+    <Compile Include="Map\MapNode.cs" />
+    <Compile Include="Map\MyLocation.cs" />
+    <Compile Include="Algorithm\Open.cs" />
+    <Compile Include="Algorithm\OldPoint.cs" />
+    <Compile Include="Agv\RouteUtil.cs" />
+    <Compile Include="Map\ElecMap.cs" />
+    <Compile Include="Network\Event\MessageEventArgs.cs" />
+    <Compile Include="Network\Messages\MessageType.cs" />
+    <Compile Include="Network\Event\MyErrorEventArgs.cs" />
+    <Compile Include="Network\Event\SearchRouteEventArgs.cs" />
+    <Compile Include="Network\Event\SendDataEventArgs.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Network\DataProtocol\GuiData.cs" />
+    <Compile Include="Network\JsonHelper.cs" />
+    <Compile Include="Map\MapNodeType.cs" />
+    <Compile Include="NLog\NLogs.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Agv\SearchManager.cs" />
+    <Compile Include="Network\Manager\ServerManager.cs" />
+    <Compile Include="Agv\VehicleManager.cs" />
+    <Compile Include="Util\MapFileUtil.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="NLog\NLog.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Network\Messages\MyMessage.cs" />
+    <Compile Include="Network\Queue\BaseQueue.cs" />
+    <Compile Include="Network\Queue\TaskRecvQueue.cs" />
+    <Compile Include="Network\Queue\SearchRouteQueue.cs" />
+    <Compile Include="Network\Queue\FinishedQueue.cs" />
+    <Compile Include="Network\DataProtocol\SearchData.cs" />
+    <Compile Include="Network\DataProtocol\SendData.cs" />
+    <Compile Include="Network\Manager\GuiServerManager.cs" />
+    <Compile Include="Network\Manager\TaskServerManager.cs" />
+    <Compile Include="Network\DataProtocol\TaskData.cs" />
+    <Compile Include="Network\ThreadCode\SearchRouteThread.cs" />
+    <Compile Include="Agv\Vehicle.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Belt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChargeOver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChargeStation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Destination.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Obstacle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Road.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vehicle_B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vehicle_Black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vehicle_F.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vehicle_Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vehicle_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vehicle_Orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vehicle_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vehicle_Red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vehicle_White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vehicle_Yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\youzheng.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_Destination.png" />
+    <None Include="Resources\Button_Scanner.png" />
+    <None Include="Resources\Button_Obstacle.png" />
+    <None Include="Resources\right1.png" />
+    <None Include="Resources\up1.png" />
+    <None Include="Resources\down1.png" />
+    <None Include="Resources\left1.png" />
+    <None Include="Resources\left2.png" />
+    <None Include="Resources\right2.png" />
+    <None Include="Resources\up2.png" />
+    <None Include="Resources\down2.png" />
+    <None Include="Resources\up3.png" />
+    <None Include="Resources\down3.png" />
+    <None Include="Resources\left3.png" />
+    <None Include="Resources\right3.png" />
+    <None Include="Resources\all.png" />
+    <None Include="Resources\besides_down.png" />
+    <None Include="Resources\besides_left.png" />
+    <None Include="Resources\besides_right.png" />
+    <None Include="Resources\besides_up.png" />
+    <None Include="Resources\down_left.png" />
+    <None Include="Resources\down_right.png" />
+    <None Include="Resources\up_left.png" />
+    <None Include="Resources\up_right.png" />
+    <None Include="Resources\up.png" />
+    <None Include="Resources\down.png" />
+    <None Include="Resources\left.png" />
+    <None Include="Resources\right.png" />
+    <None Include="Resources\empty.png" />
+    <None Include="Resources\timg.jpg" />
+    <None Include="Resources\all_gray.png" />
+    <None Include="Resources\besides_down_gray.png" />
+    <None Include="Resources\besides_left_gray.png" />
+    <None Include="Resources\besides_right_gray.png" />
+    <None Include="Resources\besides_up_gray.png" />
+    <None Include="Resources\down_gray.png" />
+    <None Include="Resources\down_left_gray.png" />
+    <None Include="Resources\down_right_gray.png" />
+    <None Include="Resources\empty_gray.png" />
+    <None Include="Resources\left_gray.png" />
+    <None Include="Resources\right_gray.png" />
+    <None Include="Resources\up_down_left_right_gray.png" />
+    <None Include="Resources\up_gray.png" />
+    <None Include="Resources\up_left_gray.png" />
+    <None Include="Resources\up_right_gray.png" />
+    <None Include="Resources\besides_down_green.png" />
+    <None Include="Resources\besides_left_green.png" />
+    <None Include="Resources\besides_right_green.png" />
+    <None Include="Resources\besides_up_green.png" />
+    <None Include="Resources\down_green.png" />
+    <None Include="Resources\down_left_green.png" />
+    <None Include="Resources\down_right_green.png" />
+    <None Include="Resources\empty_green.png" />
+    <None Include="Resources\left_green.png" />
+    <None Include="Resources\right_green.png" />
+    <None Include="Resources\up_down_left_right_green.png" />
+    <None Include="Resources\up_green.png" />
+    <None Include="Resources\up_left_green.png" />
+    <None Include="Resources\up_right_green.png" />
+    <None Include="Resources\all_purple.png" />
+    <None Include="Resources\besides_down_purple.png" />
+    <None Include="Resources\besides_left_purple.png" />
+    <None Include="Resources\besides_right_purple.png" />
+    <None Include="Resources\besides_up_purple.png" />
+    <None Include="Resources\down_left_purple.png" />
+    <None Include="Resources\down_purple.png" />
+    <None Include="Resources\down_right_purple.png" />
+    <None Include="Resources\empty_purple.png" />
+    <None Include="Resources\left_purple.png" />
+    <None Include="Resources\right_purple.png" />
+    <None Include="Resources\up_left_purple.png" />
+    <None Include="Resources\up_purple.png" />
+    <None Include="Resources\up_right_purple.png" />
+    <None Include="Resources\timg %286%29.jpg" />
+    <None Include="Resources\all_white.png" />
+    <None Include="Resources\besides_down_white.png" />
+    <None Include="Resources\besides_left_white.png" />
+    <None Include="Resources\besides_right_white.png" />
+    <None Include="Resources\besides_up_white.png" />
+    <None Include="Resources\down_left_white.png" />
+    <None Include="Resources\down_right_white.png" />
+    <None Include="Resources\down_white.png" />
+    <None Include="Resources\empty_white.png" />
+    <None Include="Resources\left_white.png" />
+    <None Include="Resources\right_white.png" />
+    <None Include="Resources\up_left_white.png" />
+    <None Include="Resources\up_right_white.png" />
+    <None Include="Resources\up_white.png" />
+    <None Include="Resources\obstacle_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Agv\AGV.xml" />
+    <Content Include="Map\ElcMap.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

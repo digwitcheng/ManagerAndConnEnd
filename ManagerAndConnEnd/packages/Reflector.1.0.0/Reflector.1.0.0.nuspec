@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Reflector</id>
+    <version>1.0.0</version>
+    <title>Reflector</title>
+    <authors>Vinicius Chiele</authors>
+    <owners>Vinicius Chiele</owners>
+    <projectUrl>https://github.com/viniciuschiele/reflector</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Reflector is a library for generating lightweight .NET proxies on the fly at runtime</description>
+    <summary />
+    <copyright>Vinicius Chiele</copyright>
+    <language>en-US</language>
+    <tags>reflect reflection proxy dynamic</tags>
+  </metadata>
+</package>
