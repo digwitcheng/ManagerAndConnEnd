@@ -27,3 +27,32 @@ D:\0研究生\AGV\程序2\实体agv\agvManager\obj\Debug\AGV V2.0.csprojResolveA
 D:\0研究生\AGV\程序2\实体agv\ManagerAndConnEnd\bin\Debug\AGV V1.0.exe.config
 D:\0研究生\AGV\程序2\实体agv\ManagerAndConnEnd\obj\Debug\AGV V1.0.exe
 D:\0研究生\AGV\程序2\实体agv\ManagerAndConnEnd\obj\Debug\AGV V1.0.pdb
+G:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\bin\Debug\AGV V1.0.exe.config
+G:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\obj\Debug\AGV V1.0.exe
+G:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\obj\Debug\AGV V1.0.pdb
+G:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\bin\Debug\AGV V1.0.exe
+G:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\bin\Debug\AGV V1.0.pdb
+G:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\bin\Debug\log4net.dll
+G:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\bin\Debug\Newtonsoft.Json.dll
+G:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\bin\Debug\NLog.dll
+G:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\bin\Debug\log4net.xml
+G:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\bin\Debug\NLog.xml
+G:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\obj\Debug\AGV_V1._0.Form1.resources
+G:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\obj\Debug\AGV_V1._0.Properties.Resources.resources
+G:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\obj\Debug\AGV V2.0.csproj.GenerateResource.Cache
+G:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\bin\Debug\AGV V1.0.exe.CodeAnalysisLog.xml
+G:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\bin\Debug\AGV V1.0.exe.lastcodeanalysissucceeded
+G:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\bin\Debug\AGV V1.0.exe.config
+G:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\obj\Debug\AGV V1.0.exe
+G:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\obj\Debug\AGV V1.0.pdb
+G:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\bin\Debug\AGV V1.0.exe
+G:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\bin\Debug\AGV V1.0.pdb
+G:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\bin\Debug\log4net.dll
+G:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\bin\Debug\Newtonsoft.Json.dll
+G:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\bin\Debug\NLog.dll
+G:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\bin\Debug\log4net.xml
+G:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\bin\Debug\NLog.xml
+G:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\obj\Debug\AGV V2.0.csprojResolveAssemblyReference.cache
+G:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\obj\Debug\AGV_V1._0.Form1.resources
+G:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\obj\Debug\AGV_V1._0.Properties.Resources.resources
+G:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\obj\Debug\AGV V2.0.csproj.GenerateResource.Cache
