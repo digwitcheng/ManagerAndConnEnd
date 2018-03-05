@@ -67,10 +67,6 @@ namespace AGV_V1._0
 
         private RouteRemoteObject remotableObject;
 
-        public const int Up = (1 << 3);
-        public const int Down = (1 << 2);
-        public const int Left = (1 << 1);
-        public const int Right = (1 << 0);
         private static readonly Dictionary<int, Image> IMAGE_DICT = new Dictionary<int, Image>{
         {15,Resources.all_white},              //1111   15
         {7 ,Resources.besides_up_white},       //0111   7
@@ -97,9 +93,9 @@ namespace AGV_V1._0
 
             InitUiView();//绘制界面
             StartThread();//启动发送，接收，搜索等线程
-            InitialSystem();
+            InitialSystem();//初始化小车
 
-           // ReInitWithiRealAgv();
+            ReInitWithiRealAgv();
         }
 
         private void ReInitWithiRealAgv()
@@ -182,9 +178,9 @@ namespace AGV_V1._0
             FinishedQueue.Instance.Clear();
             TaskRecvQueue.Instance.Clear();
             SearchRouteQueue.Instance.Clear();
+            Thread.Sleep(100);
 
             InitialAgv();
-            Thread.Sleep(100);            
             timer1.Start();
 
 
@@ -271,7 +267,7 @@ namespace AGV_V1._0
             Elc.InitialElc();
 
            // this.WindowState = FormWindowState.Maximized;
-            ConstDefine.g_NodeLength = (int)(FORM_WIDTH * PANEL_RADIO) / (ConstDefine.g_WidthNum+1);
+            ConstDefine.g_NodeLength = (int)(FORM_WIDTH * PANEL_RADIO) / ConstDefine.g_WidthNum;
             MAX_NODE_LENGTH = ConstDefine.g_NodeLength * 2;
             MIN_NODE_LENGTH = ConstDefine.g_NodeLength / 2;
 
@@ -480,46 +476,14 @@ namespace AGV_V1._0
 
         void drawArrow(int y, int x)
         {
-            int dir = 0;
-            if (Elc.mapnode[y, x].RightDifficulty < MapNode.MAX_ABLE_PASS)
+            if (Elc.mapnode[y, x].IsAbleCross)
             {
-                dir |= Right;
+                g.DrawImage(IMAGE_DICT[15], new Rectangle(Elc.mapnode[y, x].X - 1, Elc.mapnode[y, x].Y - 1, ConstDefine.g_NodeLength - 2, ConstDefine.g_NodeLength - 2));
             }
-            if (Elc.mapnode[y, x].LeftDifficulty < MapNode.MAX_ABLE_PASS)
+            else
             {
-                dir |= Left;
+                g.DrawImage(IMAGE_DICT[0], new Rectangle(Elc.mapnode[y, x].X - 1, Elc.mapnode[y, x].Y - 1, ConstDefine.g_NodeLength - 2, ConstDefine.g_NodeLength - 2));
             }
-            if (Elc.mapnode[y, x].DownDifficulty < MapNode.MAX_ABLE_PASS)
-            {
-                dir |= Down;
-            }
-            if (Elc.mapnode[y, x].UpDifficulty < MapNode.MAX_ABLE_PASS)
-            {
-                dir |= Up;
-            }
-
-            //if (dir == 0)
-            //{
-            //    dir = -1;
-            //}
-            //else
-            //{
-            //    dir = 0;
-            //}
-            Image img = IMAGE_DICT[dir];
-            if (img != null)
-            {
-                g.DrawImage(img, new Rectangle(Elc.mapnode[y, x].X - 1, Elc.mapnode[y, x].Y - 1, ConstDefine.g_NodeLength - 2, ConstDefine.g_NodeLength - 2));
-
-            }
-            //if (Elc.mapnode[y, x].IsAbleCross)
-            //{
-            //    g.DrawImage(IMAGE_DICT[15], new Rectangle(Elc.mapnode[y, x].X - 1, Elc.mapnode[y, x].Y - 1, ConstDefine.g_NodeLength - 2, ConstDefine.g_NodeLength - 2));
-            //}
-            //else
-            //{
-            //    g.DrawImage(IMAGE_DICT[0], new Rectangle(Elc.mapnode[y, x].X - 1, Elc.mapnode[y, x].Y - 1, ConstDefine.g_NodeLength - 2, ConstDefine.g_NodeLength - 2));
-            //}
         }
 
         bool first = true;
