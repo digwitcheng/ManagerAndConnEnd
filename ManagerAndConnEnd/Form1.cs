@@ -93,8 +93,6 @@ namespace AGV_V1._0
         {
             InitializeComponent();
             InitServer();//初始化服务器
-          //  ConnectDataBase(); //连接数据库
-
             InitUiView();//绘制界面
             StartThread();//启动发送，接收，搜索等线程
             InitialSystem();
