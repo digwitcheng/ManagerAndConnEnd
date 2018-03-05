@@ -91,6 +91,7 @@ namespace AGV_V1._0
 
         public Form1()
         {
+
             InitializeComponent();
             InitServer();//初始化服务器
             InitUiView();//绘制界面
