@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Data;
 using System.Windows.Forms;
 using AGV_V1._0.Properties;
-using Astar;
+using Agv.PathPlanning;
 using System.Xml;
 using AGV_V1._0.Algorithm;
 using AGV_V1._0.NLog;

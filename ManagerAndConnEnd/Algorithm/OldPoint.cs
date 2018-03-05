@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 
-namespace Astar
+namespace Agv.PathPlanning
 {
     [Serializable]
     class MyPoint

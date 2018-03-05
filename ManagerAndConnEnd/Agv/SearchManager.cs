@@ -1,6 +1,6 @@
 ﻿using AGV_V1._0.Agv;
 using AGV_V1._0.Util;
-using Astar;
+using Agv.PathPlanning;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +13,7 @@ namespace AGV_V1._0
     class SearchManager
     {
         ElecMap Elc;
-        AstarSearch astarSearch;
+        AgvPathPlanning astarSearch;
         //private readonly object searchLock = new object();
 
         private static SearchManager _instance;
@@ -31,7 +31,7 @@ namespace AGV_V1._0
         public SearchManager()
         {
             Elc = ElecMap.Instance;
-            astarSearch = new AstarSearch();
+            astarSearch = new AgvPathPlanning();
 
         }
         private int ResearchCount

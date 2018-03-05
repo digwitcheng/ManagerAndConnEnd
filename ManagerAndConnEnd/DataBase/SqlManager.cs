@@ -2,7 +2,7 @@
 using AGV_V1._0.Network.ThreadCode;
 using AGV_V1._0.NLog;
 using AGV_V1._0.Util;
-using Astar;
+using Agv.PathPlanning;
 using DataBase;
 using System;
 using System.Collections.Concurrent;

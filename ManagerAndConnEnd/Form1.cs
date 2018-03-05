@@ -9,7 +9,7 @@ using System.Text;
 using System.Windows;
 using System.Windows.Forms;
 using System.Xml;
-using Astar;
+using Agv.PathPlanning;
 using AGV_V1._0.Properties;
 using System.Drawing.Imaging;
 using System.Drawing.Drawing2D;

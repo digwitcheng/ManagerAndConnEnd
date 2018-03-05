@@ -86,7 +86,9 @@
   <ItemGroup>
     <Compile Include="Agv\Direction.cs" />
     <Compile Include="Agv\State.cs" />
-    <Compile Include="Algorithm\AstarSearch.cs" />
+    <Compile Include="Algorithm\AgvPathPlanning.cs" />
+    <Compile Include="Algorithm\Astar.cs" />
+    <Compile Include="Algorithm\AstarUtil.cs" />
     <Compile Include="Algorithm\Close.cs" />
     <Compile Include="DataBase\DataBseUtil.cs" />
     <Compile Include="DataBase\Sql.cs" />

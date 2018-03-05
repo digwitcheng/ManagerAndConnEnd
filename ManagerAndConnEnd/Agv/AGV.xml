@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Info>
   <NO>1</NO>
-  <SUM>1</SUM>
+  <SUM>5</SUM>
   <watch>0</watch>
   <AGV>
     <AGV Num="0" BeginX="2" BeginY="6" StartLoc="" Direction="Up" State="carried" Battery="100" EndX="6" EndY="17" DestX="6" DestY="18" Use="T" />
@@ -510,7 +510,7 @@
     <AGV Num="1" BeginX="2" BeginY="4" StartLoc="道路" Direction="Up" State="free" Battery="100" EndX="" EndY="" DestX="" DestY="" Use="T" />
     <AGV Num="2" BeginX="4" BeginY="10" StartLoc="WaitArea" Direction="Up" State="free" Battery="100" EndX="" EndY="" DestX="" DestY="" Use="T" />
     <AGV Num="3" BeginX="9" BeginY="5" StartLoc="道路" Direction="Up" State="free" Battery="100" EndX="" EndY="" DestX="" DestY="" Use="T" />
-    <AGV Num="4" BeginX="28" BeginY="69" StartLoc="道路" Direction="Up" State="free" Battery="100" EndX="" EndY="" DestX="" DestY="" Use="T" />
+    <AGV Num="4" BeginX="7" BeginY="6" StartLoc="道路" Direction="Up" State="free" Battery="100" EndX="" EndY="" DestX="" DestY="" Use="T" />
     <AGV Num="5" BeginX="60" BeginY="67" StartLoc="道路" Direction="Up" State="free" Battery="100" EndX="" EndY="" DestX="" DestY="" Use="T" />
     <AGV Num="6" BeginX="37" BeginY="51" StartLoc="道路" Direction="Up" State="free" Battery="100" EndX="" EndY="" DestX="" DestY="" Use="T" />
     <AGV Num="7" BeginX="59" BeginY="75" StartLoc="扫描仪" Direction="Up" State="free" Battery="100" EndX="" EndY="" DestX="" DestY="" Use="T" />

@@ -10,7 +10,7 @@ using AGV_V1._0.Util;
 using AGVSocket.Network;
 using AGVSocket.Network.EnumType;
 using AGVSocket.Network.Packet;
-using Astar;
+using Agv.PathPlanning;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -153,12 +153,11 @@ namespace AGV_V1._0
                     vehicles[vnum].StopTime = 3;
                 }
                 else
-                {                    
-                    bool isMove = vehicles[vnum].Move(ElecMap.Instance);// vehicles[vnum].SimpleMove();// 
+                {
+                    vehicles[vnum].Move(ElecMap.Instance);
+                    bool isMove = false;// vehicles[vnum].Move(ElecMap.Instance);
                         if (isMove)
                         {
-                           // AGVServerManager.Instance.Send(MessageType.Move, vehicles[vnum].BeginX + ":" + vehicles[vnum].BeginY + ":"
-                           //+ vehicles[vnum].EndX + ":" + vehicles[vnum].EndY);
                             uint x = Convert.ToUInt32(vehicles[vnum].BeginX);
                             uint y = Convert.ToUInt32(vehicles[vnum].BeginY);
                             uint endX = Convert.ToUInt32(vehicles[vnum].EndX);
