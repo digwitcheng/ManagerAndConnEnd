@@ -27,7 +27,7 @@ namespace AGVSocket.Network
                 return agvInfo;
             }
         }
-         private static AgvServerManager instance;
+        private static AgvServerManager instance;
         public static AgvServerManager Instance
         {
             get

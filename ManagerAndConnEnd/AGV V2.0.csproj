@@ -89,6 +89,7 @@
     <Compile Include="Algorithm\AgvPathPlanning.cs" />
     <Compile Include="Algorithm\Astar.cs" />
     <Compile Include="Algorithm\AstarUtil.cs" />
+    <Compile Include="Algorithm\Bfs.cs" />
     <Compile Include="Algorithm\Close.cs" />
     <Compile Include="DataBase\DataBseUtil.cs" />
     <Compile Include="DataBase\Sql.cs" />

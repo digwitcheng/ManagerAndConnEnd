@@ -151,8 +151,8 @@ namespace AGV_V1._0
             //TaskReceiveThread.Instance.Start();
             //TaskReceiveThread.Instance.ShowMessage += OnShowMessageWithPicBox;
 
-            //GuiSendThread.Instance.Start();
-            //GuiSendThread.Instance.ShowMessage += OnShowMessageWithPicBox;
+            GuiSendThread.Instance.Start();
+            GuiSendThread.Instance.ShowMessage += OnShowMessageWithPicBox;
 
             SearchRouteThread.Instance.Start();
             SearchRouteThread.Instance.ShowMessage += OnShowMessageWithPicBox;

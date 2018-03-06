@@ -48,7 +48,7 @@ namespace Cowboy.Sockets
 
         public void EncodeFrame(byte[] payload, int offset, int count, out byte[] frameBuffer, out int frameBufferOffset, out int frameBufferLength)
         {
-           // var buffer = Encode(payload, offset, count, IsMasked);
+            // var buffer = Encode(payload, offset, count, IsMasked);
             //frameBuffer = buffer;
             //frameBufferOffset = 0;
             //frameBufferLength = buffer.Length;
@@ -149,7 +149,7 @@ namespace Cowboy.Sockets
             payloadOffset = 0;
             payloadCount = 0;
 
-            var frameHeader = DecodeHeader(buffer, offset, count);            
+            var frameHeader = DecodeHeader(buffer, offset, count);
             if (frameHeader != null && frameHeader.Length + frameHeader.PayloadLength <= count)
             {
                 if (IsMasked)
@@ -195,8 +195,8 @@ namespace Cowboy.Sockets
             // parse fixed header
             var header = new Header()
             {
-                IsMasked =false,// ((buffer[offset + 0] & 0x80) == 0x80),
-                PayloadLength = (buffer[offset +2]),
+                IsMasked = false,// ((buffer[offset + 0] & 0x80) == 0x80),
+                PayloadLength = (buffer[offset + 2]),
                 Length = 0,
             };
 

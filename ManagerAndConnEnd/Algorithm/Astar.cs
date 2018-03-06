@@ -10,7 +10,7 @@ namespace AGV_V1._0.Algorithm
 {
     class Astar
     {
-
+       
         public const int SWERVE_COST = 3;
         public static int Search(Close [,]close, Open open,Node[,] graph,int beginX,int beginY,Direction beginDir)
         {    // A*算法遍历

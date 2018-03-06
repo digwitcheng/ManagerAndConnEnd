@@ -14,6 +14,7 @@ namespace AGV_V1._0.Algorithm
         public const int Sequential = 0;    //顺序遍历
         public const int NoSolution = 2;    //无解决方案
         public const int Infinity = 0xfffffff;
+        internal const int MaxLength = 6000;   //用于优先队列（Open表）的数组
 
         public static MyPoint[] dir = new MyPoint[4]{	
         new MyPoint( 0, 1),   //,Direction.RightDifficulty // East 0
@@ -70,5 +71,6 @@ namespace AGV_V1._0.Algorithm
         {
             return q.Array[--q.length];
         }
+       
     }
 }
