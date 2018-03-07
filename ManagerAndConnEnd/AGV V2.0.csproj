@@ -169,6 +169,7 @@
     <Compile Include="Network\ThreadCode\TaskSendThread.cs" />
     <Compile Include="Network\ThreadCode\UpdataSqlThread.cs" />
     <Compile Include="Remoting\RouteRemoteObject.cs" />
+    <Compile Include="testgit.cs" />
     <Compile Include="Util\DrawUtil.cs" />
     <Compile Include="Util\FileUtil.cs" />
     <Compile Include="Util\ConstDefine.cs" />
