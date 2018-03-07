@@ -27,13 +27,24 @@ namespace AGV_V1._0.Network.Messages
         {
             try
             {
+                string path = "";
+                MessageType type = MessageType.AgvFile;
+                if (this.Type == MessageType.AgvFile)
+                {
+                     path = ConstDefine.AGV_PATH;
+                }
+                if (this.Type == MessageType.MapFile)
+                {
+                    path = ConstDefine.MAP_PATH;
+                }
+
+
                 OnMessageEvent("接收中...");
-                string pathAgv = ConstDefine.AGV_PATH;
                 //Task.Factory.StartNew(() => ReciveFile(pathAgv, e), TaskCreationOptions.LongRunning);
-                ReciveFile(pathAgv, this.Message);
+                ReciveFile(path, this.Message);
                 OnMessageEvent("文件接收成功");
                 OnMessageEvent("文件转发中...");
-                OnTransmitEvent(this, new MessageEventArgs(MessageType.AgvFile, pathAgv));
+                OnTransmitEvent(this, new MessageEventArgs(type, path));
                 OnMessageEvent("文件转发成功");
             }
             catch (Exception ex)
