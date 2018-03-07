@@ -14,8 +14,7 @@ namespace Agv.PathPlanning
 {
 
     class AgvPathPlanning
-    {      
-        
+    {   
         private int Height = 15;       //默认地图高度
         private int Width = 20;       //默认地图宽度
         private const int Reachable = 0;       //可以到达的结点
