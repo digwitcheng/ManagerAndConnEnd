@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="test.xsl"?>
+<config>
+  <NO>90</NO>
+  <Map>
+    <!--地图格子宽度-->
+    <PixOfMap>40</PixOfMap>
+    <!-- 地图格子个数 -->
+    <Heightnum>14</Heightnum>
+    <Widthnum>18</Widthnum>
+    <Restnum>0</Restnum>
+    <LWaitnum>0</LWaitnum>
+    <RWaitnum>0</RWaitnum>
+    <Destnum>12</Destnum>
+  </Map>
+  <!--上下左右-->
+  <Direct>
+    <d0000 tip="0不能走">
+      <x-0-13>y-0-0</x-0-13>
+      <x-2-4>y-1-1</x-2-4>
+      <x-8-10>y-1-1</x-8-10>
+      <x-2-2>y-5-6,y-9-9,y-12-12,y-15-15</x-2-2>
+      <x-5-5>y-5-6,y-9-9,y-12-12,y-15-15</x-5-5>
+      <x-8-8>y-5-6,y-9-9,y-12-12,y-15-15</x-8-8>
+      <x-11-11>y-5-6,y-9-9,y-12-12,y-15-15</x-11-11>
+    </d0000>
+    <d0001 tip="1右">
+      <x-0-0>y-3-3,y-5-7,y-9-10,y-12-13,y-15-16</x-0-0>
+      <x-3-4>y-5-6,y-9-9,y-12-12,y-15-15</x-3-4>
+      <x-9-10>y-5-6,y-9-9,y-12-12,y-15-15</x-9-10>
+      <x-3-4>y-4-4</x-3-4>
+      <x-9-10>y-4-4</x-9-10>
+    </d0001>
+    <d0010 tip="2左">
+      <x-7-7>y-5-6,y-9-9,y-12-12,y-15-15</x-7-7>
+      <x-13-13>x-4-6,x-8-9,x-11-12,y-14-15,y-17-17</x-13-13>
+    </d0010>
+    <d0011 tip="3左右">
+    </d0011>
+    <d0100 tip="4下">
+      <x-0-0>y-17-17</x-0-0>
+      <x-1-12>y-17-17</x-1-12>
+      <x-2-2>y-8-8</x-2-2>
+      <x-5-5>y-8-8</x-5-5>
+      <x-8-8>y-8-8</x-8-8>
+      <x-11-11>y-8-8</x-11-11>
+      <x-2-2>y-2-2</x-2-2>
+      <x-8-8>y-2-2</x-8-8>
+    </d0100>
+    <d0101 tip="5下右">
+      <x-0-0>y-4-4,y-8-8,y-11-11,y-14-14</x-0-0>
+      <x-3-4>y-8-8,y-11-11,y-14-14</x-3-4>
+      <x-6-6>y-3-6,y-8-9,y-11-12,y-14-15</x-6-6>
+      <x-9-10>y-8-8,y-11-11,y-14-14</x-9-10>
+      <x-12-12>y-4-6,y-8-9,y-11-12,y-14-15</x-12-12>
+      <x-6-6>y-4-4</x-6-6>
+      <x-12-12>y-4-4</x-12-12>
+      <x-3-4>y-2-2</x-3-4>
+      <x-9-10>y-2-2</x-9-10>
+    </d0101>
+    <d0110 tip="6下左">
+      <x-1-1>y-4-4,y-8-8,y-11-11,y-14-14</x-1-1>
+      <x-2-2>y-11-11,y-14-14</x-2-2>
+      <x-5-5>y-11-11,y-14-14</x-5-5>
+      <x-8-8>y-11-11,y-14-14</x-8-8>
+      <x-11-11>y-8-8,y-11-11,y-14-14</x-11-11>
+      <x-7-7>y-4-4,y-8-8,y-11-11,y-14-14,y-16-17</x-7-7>
+      <x-2-2>y-4-4</x-2-2>
+      <x-5-5>y-4-4</x-5-5>
+      <x-7-8>y-4-4</x-7-8>
+      <x-11-11>y-4-4</x-11-11>
+    </d0110>
+    <d0111 tip="7下左右">
+    </d0111>
+    <d1000 tip="8上">
+      <x-2-2>y-7-7</x-2-2>
+      <x-5-5>y-7-7</x-5-5>
+      <x-8-8>y-7-7</x-8-8>
+      <x-2-2>y-16-16</x-2-2>
+      <x-5-5>y-16-16</x-5-5>
+      <x-8-8>y-16-16</x-8-8>
+      <x-11-11>y-16-16</x-11-11>
+    </d1000>
+    <d1001 tip="9上右">
+      <x-2-2>y-10-10,y-13-13</x-2-2>
+      <x-5-5>y-10-10,y-13-13</x-5-5>
+      <x-8-8>y-10-10,y-13-13</x-8-8>
+      <x-11-11>y-10-10,y-13-13</x-11-11>
+      <x-3-4>y-7-7,y-10-10,y-13-13,y-16-16</x-3-4>
+      <x-6-6>y-3-3,y-7-7,y-10-10,y-13-13,y-16-16</x-6-6>
+      <x-9-10>y-7-7,y-10-10,y-13-13,y-16-16</x-9-10>
+      <x-12-12>y-7-7,y-10-10,y-13-13,y-16-16</x-12-12>
+      <x-11-11>y-7-7,y-10-10,y-13-13</x-11-11>
+      <x-3-4>y-3-3</x-3-4>
+      <x-9-10>y-3-3</x-9-10>
+      <x-12-12>y-3-3</x-12-12>
+    </d1001>
+    <d1010 tip="10上左">
+      <x-1-2>y-3-3</x-1-2>
+      <x-7-8>y-3-3</x-7-8>
+      <x-13-13>y-3-3</x-13-13>
+      <x-1-1>y-3-3,y-5-7,y-9-10,y-12-13,y-15-16</x-1-1>
+      <x-7-7>y-3-3,y-5-7,y-10-10,y-13-13</x-7-7>
+      <x-13-13>y-3-3,y-7-7,y-10-10,y-13-13,y-16-16</x-13-13>
+      <x-5-5>y-3-3</x-5-5>
+      <x-11-11>y-3-3</x-11-11>
+    </d1010>
+    <d1011 tip="11上左右">
+    </d1011>
+    <d1100 tip="12上下">
+    </d1100>
+    <d1101 tip="13上下右">
+    </d1101>
+    <d1110 tip="14上下左">
+    </d1110>
+    <d1111 tip="15上下左右">
+      <x-0-1>y-1-2</x-0-1>
+      <x-5-7>y-1-2</x-5-7>
+      <x-11-13>y-1-2</x-11-13>
+    </d1111>
+  </Direct>
+  <Grid>
+    <td0-0 direction="0000" tip="0不能走">障碍区</td0-0>
+    <td0-1 direction="1111" tip="15上下左右">道路</td0-1>
+    <td0-2 direction="1111" tip="15上下左右">道路</td0-2>
+    <td0-3 direction="0001" tip="1右">道路</td0-3>
+    <td0-4 direction="0101" tip="5下右">道路</td0-4>
+    <td0-5 direction="0001" tip="1右">道路</td0-5>
+    <td0-6 direction="0001" tip="1右">道路</td0-6>
+    <td0-7 direction="0001" tip="1右">道路</td0-7>
+    <td0-8 direction="0101" tip="5下右">道路</td0-8>
+    <td0-9 direction="0001" tip="1右">道路</td0-9>
+    <td0-10 direction="0001" tip="1右">道路</td0-10>
+    <td0-11 direction="0101" tip="5下右">道路</td0-11>
+    <td0-12 direction="0001" tip="1右">道路</td0-12>
+    <td0-13 direction="0001" tip="1右">道路</td0-13>
+    <td0-14 direction="0101" tip="5下右">道路</td0-14>
+    <td0-15 direction="0001" tip="1右">道路</td0-15>
+    <td0-16 direction="0001" tip="1右">道路</td0-16>
+    <td0-17 direction="0100" tip="4下">道路</td0-17>
+    <td1-0 direction="0000" tip="0不能走">障碍区</td1-0>
+    <td1-1 direction="1111" tip="15上下左右">道路</td1-1>
+    <td1-2 direction="1111" tip="15上下左右">道路</td1-2>
+    <td1-3 direction="1010" tip="10上左">道路</td1-3>
+    <td1-4 direction="0110" tip="6下左">道路</td1-4>
+    <td1-5 direction="1010" tip="10上左">道路</td1-5>
+    <td1-6 direction="1010" tip="10上左">道路</td1-6>
+    <td1-7 direction="1010" tip="10上左">道路</td1-7>
+    <td1-8 direction="0110" tip="6下左">道路</td1-8>
+    <td1-9 direction="1010" tip="10上左">道路</td1-9>
+    <td1-10 direction="1010" tip="10上左">道路</td1-10>
+    <td1-11 direction="0110" tip="6下左">道路</td1-11>
+    <td1-12 direction="1010" tip="10上左">道路</td1-12>
+    <td1-13 direction="1010" tip="10上左">道路</td1-13>
+    <td1-14 direction="0110" tip="6下左">道路</td1-14>
+    <td1-15 direction="1010" tip="10上左">道路</td1-15>
+    <td1-16 direction="1010" tip="10上左">道路</td1-16>
+    <td1-17 direction="0100" tip="4下">道路</td1-17>
+    <td2-0 direction="0000" tip="0不能走">障碍区</td2-0>
+    <td2-1 direction="0000" tip="0不能走">障碍区</td2-1>
+    <td2-2 direction="0100" tip="4下">道路</td2-2>
+    <td2-3 direction="1010" tip="10上左">道路</td2-3>
+    <td2-4 direction="0110" tip="6下左">道路</td2-4>
+    <td2-5 direction="0000" tip="0不能走">障碍区</td2-5>
+    <td2-6 direction="0000" tip="0不能走">障碍区</td2-6>
+    <td2-7 direction="1000" tip="8上">道路</td2-7>
+    <td2-8 direction="0100" tip="4下">道路</td2-8>
+    <td2-9 direction="0000" tip="0不能走">投放口</td2-9>
+    <td2-10 direction="1001" tip="9上右">道路</td2-10>
+    <td2-11 direction="0110" tip="6下左">道路</td2-11>
+    <td2-12 direction="0000" tip="0不能走">投放口</td2-12>
+    <td2-13 direction="1001" tip="9上右">道路</td2-13>
+    <td2-14 direction="0110" tip="6下左">道路</td2-14>
+    <td2-15 direction="0000" tip="0不能走">投放口</td2-15>
+    <td2-16 direction="1000" tip="8上">道路</td2-16>
+    <td2-17 direction="0100" tip="4下">道路</td2-17>
+    <td3-0 direction="0000" tip="0不能走">障碍区</td3-0>
+    <td3-1 direction="0000" tip="0不能走">充电区</td3-1>
+    <td3-2 direction="0101" tip="5下右">道路</td3-2>
+    <td3-3 direction="1001" tip="9上右">道路</td3-3>
+    <td3-4 direction="0001" tip="1右">道路</td3-4>
+    <td3-5 direction="0001" tip="1右">道路</td3-5>
+    <td3-6 direction="0001" tip="1右">扫描仪</td3-6>
+    <td3-7 direction="1001" tip="9上右">道路</td3-7>
+    <td3-8 direction="0101" tip="5下右">道路</td3-8>
+    <td3-9 direction="0001" tip="1右">道路</td3-9>
+    <td3-10 direction="1001" tip="9上右">道路</td3-10>
+    <td3-11 direction="0101" tip="5下右">道路</td3-11>
+    <td3-12 direction="0001" tip="1右">道路</td3-12>
+    <td3-13 direction="1001" tip="9上右">道路</td3-13>
+    <td3-14 direction="0101" tip="5下右">道路</td3-14>
+    <td3-15 direction="0001" tip="1右">道路</td3-15>
+    <td3-16 direction="1001" tip="9上右">道路</td3-16>
+    <td3-17 direction="0100" tip="4下">道路</td3-17>
+    <td4-0 direction="0000" tip="0不能走">障碍区</td4-0>
+    <td4-1 direction="0000" tip="0不能走">障碍区</td4-1>
+    <td4-2 direction="0101" tip="5下右">道路</td4-2>
+    <td4-3 direction="1001" tip="9上右">道路</td4-3>
+    <td4-4 direction="0001" tip="1右">道路</td4-4>
+    <td4-5 direction="0001" tip="1右">道路</td4-5>
+    <td4-6 direction="0001" tip="1右">扫描仪</td4-6>
+    <td4-7 direction="1001" tip="9上右">道路</td4-7>
+    <td4-8 direction="0101" tip="5下右">道路</td4-8>
+    <td4-9 direction="0001" tip="1右">道路</td4-9>
+    <td4-10 direction="1001" tip="9上右">道路</td4-10>
+    <td4-11 direction="0101" tip="5下右">道路</td4-11>
+    <td4-12 direction="0001" tip="1右">道路</td4-12>
+    <td4-13 direction="1001" tip="9上右">道路</td4-13>
+    <td4-14 direction="0101" tip="5下右">道路</td4-14>
+    <td4-15 direction="0001" tip="1右">道路</td4-15>
+    <td4-16 direction="1001" tip="9上右">道路</td4-16>
+    <td4-17 direction="0100" tip="4下">道路</td4-17>
+    <td5-0 direction="0000" tip="0不能走">障碍区</td5-0>
+    <td5-1 direction="1111" tip="15上下左右">道路</td5-1>
+    <td5-2 direction="1111" tip="15上下左右">道路</td5-2>
+    <td5-3 direction="1010" tip="10上左">道路</td5-3>
+    <td5-4 direction="0110" tip="6下左">道路</td5-4>
+    <td5-5 direction="0000" tip="0不能走">工位</td5-5>
+    <td5-6 direction="0000" tip="0不能走">障碍区</td5-6>
+    <td5-7 direction="1000" tip="8上">道路</td5-7>
+    <td5-8 direction="0100" tip="4下">道路</td5-8>
+    <td5-9 direction="0000" tip="0不能走">投放口</td5-9>
+    <td5-10 direction="1001" tip="9上右">道路</td5-10>
+    <td5-11 direction="0110" tip="6下左">道路</td5-11>
+    <td5-12 direction="0000" tip="0不能走">投放口</td5-12>
+    <td5-13 direction="1001" tip="9上右">道路</td5-13>
+    <td5-14 direction="0110" tip="6下左">道路</td5-14>
+    <td5-15 direction="0000" tip="0不能走">投放口</td5-15>
+    <td5-16 direction="1000" tip="8上">道路</td5-16>
+    <td5-17 direction="0100" tip="4下">道路</td5-17>
+    <td6-0 direction="0000" tip="0不能走">障碍区</td6-0>
+    <td6-1 direction="1111" tip="15上下左右">道路</td6-1>
+    <td6-2 direction="1111" tip="15上下左右">道路</td6-2>
+    <td6-3 direction="1001" tip="9上右">道路</td6-3>
+    <td6-4 direction="0101" tip="5下右">道路</td6-4>
+    <td6-5 direction="0101" tip="5下右">道路</td6-5>
+    <td6-6 direction="0101" tip="5下右">道路</td6-6>
+    <td6-7 direction="1001" tip="9上右">道路</td6-7>
+    <td6-8 direction="0101" tip="5下右">道路</td6-8>
+    <td6-9 direction="0101" tip="5下右">道路</td6-9>
+    <td6-10 direction="1001" tip="9上右">道路</td6-10>
+    <td6-11 direction="0101" tip="5下右">道路</td6-11>
+    <td6-12 direction="0101" tip="5下右">道路</td6-12>
+    <td6-13 direction="1001" tip="9上右">道路</td6-13>
+    <td6-14 direction="0101" tip="5下右">道路</td6-14>
+    <td6-15 direction="0101" tip="5下右">道路</td6-15>
+    <td6-16 direction="1001" tip="9上右">道路</td6-16>
+    <td6-17 direction="0100" tip="4下">道路</td6-17>
+    <td7-0 direction="0000" tip="0不能走">障碍区</td7-0>
+    <td7-1 direction="1111" tip="15上下左右">道路</td7-1>
+    <td7-2 direction="1111" tip="15上下左右">道路</td7-2>
+    <td7-3 direction="1010" tip="10上左">道路</td7-3>
+    <td7-4 direction="0110" tip="6下左">道路</td7-4>
+    <td7-5 direction="1010" tip="10上左">道路</td7-5>
+    <td7-6 direction="1010" tip="10上左">道路</td7-6>
+    <td7-7 direction="1010" tip="10上左">道路</td7-7>
+    <td7-8 direction="0110" tip="6下左">道路</td7-8>
+    <td7-9 direction="0010" tip="2左">道路</td7-9>
+    <td7-10 direction="1010" tip="10上左">道路</td7-10>
+    <td7-11 direction="0110" tip="6下左">道路</td7-11>
+    <td7-12 direction="0010" tip="2左">道路</td7-12>
+    <td7-13 direction="1010" tip="10上左">道路</td7-13>
+    <td7-14 direction="0110" tip="6下左">道路</td7-14>
+    <td7-15 direction="0010" tip="2左">道路</td7-15>
+    <td7-16 direction="0110" tip="6下左">道路</td7-16>
+    <td7-17 direction="0110" tip="6下左">道路</td7-17>
+    <td8-0 direction="0000" tip="0不能走">障碍区</td8-0>
+    <td8-1 direction="0000" tip="0不能走">障碍区</td8-1>
+    <td8-2 direction="0100" tip="4下">道路</td8-2>
+    <td8-3 direction="1010" tip="10上左">道路</td8-3>
+    <td8-4 direction="0110" tip="6下左">道路</td8-4>
+    <td8-5 direction="0000" tip="0不能走">障碍区</td8-5>
+    <td8-6 direction="0000" tip="0不能走">障碍区</td8-6>
+    <td8-7 direction="1000" tip="8上">道路</td8-7>
+    <td8-8 direction="0100" tip="4下">道路</td8-8>
+    <td8-9 direction="0000" tip="0不能走">投放口</td8-9>
+    <td8-10 direction="1001" tip="9上右">道路</td8-10>
+    <td8-11 direction="0110" tip="6下左">道路</td8-11>
+    <td8-12 direction="0000" tip="0不能走">投放口</td8-12>
+    <td8-13 direction="1001" tip="9上右">道路</td8-13>
+    <td8-14 direction="0110" tip="6下左">道路</td8-14>
+    <td8-15 direction="0000" tip="0不能走">投放口</td8-15>
+    <td8-16 direction="1000" tip="8上">道路</td8-16>
+    <td8-17 direction="0100" tip="4下">道路</td8-17>
+    <td9-0 direction="0000" tip="0不能走">障碍区</td9-0>
+    <td9-1 direction="0000" tip="0不能走">充电区</td9-1>
+    <td9-2 direction="0101" tip="5下右">道路</td9-2>
+    <td9-3 direction="1001" tip="9上右">道路</td9-3>
+    <td9-4 direction="0001" tip="1右">道路</td9-4>
+    <td9-5 direction="0001" tip="1右">道路</td9-5>
+    <td9-6 direction="0001" tip="1右">扫描仪</td9-6>
+    <td9-7 direction="1001" tip="9上右">道路</td9-7>
+    <td9-8 direction="0101" tip="5下右">道路</td9-8>
+    <td9-9 direction="0001" tip="1右">道路</td9-9>
+    <td9-10 direction="1001" tip="9上右">道路</td9-10>
+    <td9-11 direction="0101" tip="5下右">道路</td9-11>
+    <td9-12 direction="0001" tip="1右">道路</td9-12>
+    <td9-13 direction="1001" tip="9上右">道路</td9-13>
+    <td9-14 direction="0101" tip="5下右">道路</td9-14>
+    <td9-15 direction="0001" tip="1右">道路</td9-15>
+    <td9-16 direction="1001" tip="9上右">道路</td9-16>
+    <td9-17 direction="0100" tip="4下">道路</td9-17>
+    <td10-0 direction="0000" tip="0不能走">障碍区</td10-0>
+    <td10-1 direction="0000" tip="0不能走">障碍区</td10-1>
+    <td10-2 direction="0101" tip="5下右">道路</td10-2>
+    <td10-3 direction="1001" tip="9上右">道路</td10-3>
+    <td10-4 direction="0001" tip="1右">道路</td10-4>
+    <td10-5 direction="0001" tip="1右">道路</td10-5>
+    <td10-6 direction="0001" tip="1右">扫描仪</td10-6>
+    <td10-7 direction="1001" tip="9上右">道路</td10-7>
+    <td10-8 direction="0101" tip="5下右">道路</td10-8>
+    <td10-9 direction="0001" tip="1右">道路</td10-9>
+    <td10-10 direction="1001" tip="9上右">道路</td10-10>
+    <td10-11 direction="0101" tip="5下右">道路</td10-11>
+    <td10-12 direction="0001" tip="1右">道路</td10-12>
+    <td10-13 direction="1001" tip="9上右">道路</td10-13>
+    <td10-14 direction="0101" tip="5下右">道路</td10-14>
+    <td10-15 direction="0001" tip="1右">道路</td10-15>
+    <td10-16 direction="1001" tip="9上右">道路</td10-16>
+    <td10-17 direction="0100" tip="4下">道路</td10-17>
+    <td11-0 direction="0000" tip="0不能走">障碍区</td11-0>
+    <td11-1 direction="1111" tip="15上下左右">道路</td11-1>
+    <td11-2 direction="1111" tip="15上下左右">道路</td11-2>
+    <td11-3 direction="1010" tip="10上左">道路</td11-3>
+    <td11-4 direction="0110" tip="6下左">道路</td11-4>
+    <td11-5 direction="0000" tip="0不能走">工位</td11-5>
+    <td11-6 direction="0000" tip="0不能走">障碍区</td11-6>
+    <td11-7 direction="1001" tip="9上右">道路</td11-7>
+    <td11-8 direction="0110" tip="6下左">道路</td11-8>
+    <td11-9 direction="0000" tip="0不能走">投放口</td11-9>
+    <td11-10 direction="1001" tip="9上右">道路</td11-10>
+    <td11-11 direction="0110" tip="6下左">道路</td11-11>
+    <td11-12 direction="0000" tip="0不能走">投放口</td11-12>
+    <td11-13 direction="1001" tip="9上右">道路</td11-13>
+    <td11-14 direction="0110" tip="6下左">道路</td11-14>
+    <td11-15 direction="0000" tip="0不能走">投放口</td11-15>
+    <td11-16 direction="1000" tip="8上">道路</td11-16>
+    <td11-17 direction="0100" tip="4下">道路</td11-17>
+    <td12-0 direction="0000" tip="0不能走">障碍区</td12-0>
+    <td12-1 direction="1111" tip="15上下左右">道路</td12-1>
+    <td12-2 direction="1111" tip="15上下左右">道路</td12-2>
+    <td12-3 direction="1001" tip="9上右">道路</td12-3>
+    <td12-4 direction="0101" tip="5下右">道路</td12-4>
+    <td12-5 direction="0101" tip="5下右">道路</td12-5>
+    <td12-6 direction="0101" tip="5下右">道路</td12-6>
+    <td12-7 direction="1001" tip="9上右">道路</td12-7>
+    <td12-8 direction="0101" tip="5下右">道路</td12-8>
+    <td12-9 direction="0101" tip="5下右">道路</td12-9>
+    <td12-10 direction="1001" tip="9上右">道路</td12-10>
+    <td12-11 direction="0101" tip="5下右">道路</td12-11>
+    <td12-12 direction="0101" tip="5下右">道路</td12-12>
+    <td12-13 direction="1001" tip="9上右">道路</td12-13>
+    <td12-14 direction="0101" tip="5下右">道路</td12-14>
+    <td12-15 direction="0101" tip="5下右">道路</td12-15>
+    <td12-16 direction="1001" tip="9上右">道路</td12-16>
+    <td12-17 direction="0100" tip="4下">道路</td12-17>
+    <td13-0 direction="0000" tip="0不能走">障碍区</td13-0>
+    <td13-1 direction="1111" tip="15上下左右">道路</td13-1>
+    <td13-2 direction="1111" tip="15上下左右">道路</td13-2>
+    <td13-3 direction="1010" tip="10上左">道路</td13-3>
+    <td13-4 direction="0010" tip="2左">道路</td13-4>
+    <td13-5 direction="0010" tip="2左">道路</td13-5>
+    <td13-6 direction="0010" tip="2左">道路</td13-6>
+    <td13-7 direction="1010" tip="10上左">道路</td13-7>
+    <td13-8 direction="0010" tip="2左">道路</td13-8>
+    <td13-9 direction="0010" tip="2左">道路</td13-9>
+    <td13-10 direction="1010" tip="10上左">道路</td13-10>
+    <td13-11 direction="0010" tip="2左">道路</td13-11>
+    <td13-12 direction="0010" tip="2左">道路</td13-12>
+    <td13-13 direction="1010" tip="10上左">道路</td13-13>
+    <td13-14 direction="0010" tip="2左">道路</td13-14>
+    <td13-15 direction="0010" tip="2左">道路</td13-15>
+    <td13-16 direction="1010" tip="10上左">道路</td13-16>
+    <td13-17 direction="0010" tip="2左">道路</td13-17>
+  </Grid>
+</config>

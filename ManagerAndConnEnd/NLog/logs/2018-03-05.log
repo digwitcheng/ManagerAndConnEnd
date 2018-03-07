@@ -1,0 +1,322 @@
+2018-03-05 16:32:09.2949 INFO  load map success 
+2018-03-05 16:32:48.2379 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 16:34:27.1329 INFO  load map success 
+2018-03-05 16:34:27.4619 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 16:34:32.1879 ERROR  小车初始化失败System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AGV_V1._0.Algorithm.RouteUtil.VehicleOcuppyNode(ElecMap Elc, Vehicle[] vehicle) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\RouteUtil.cs:行号 59
+   在 AGV_V1._0.VehicleManager.InitialVehicle() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\VehicleManager.cs:行号 259
+   在 AGV_V1._0.Form1.InitialAgv() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Form1.cs:行号 194 
+2018-03-05 16:34:49.0999 INFO  总任务数：0 label5 
+2018-03-05 16:42:06.1609 INFO  load map success 
+2018-03-05 16:42:06.4959 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 16:42:07.8449 ERROR  小车初始化失败System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AGV_V1._0.Algorithm.RouteUtil.VehicleOcuppyNode(ElecMap Elc, Vehicle[] vehicle) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\RouteUtil.cs:行号 59
+   在 AGV_V1._0.VehicleManager.InitialVehicle() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\VehicleManager.cs:行号 259
+   在 AGV_V1._0.Form1.InitialAgv() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Form1.cs:行号 198 
+2018-03-05 16:42:20.5499 INFO  总任务数：0 label5 
+2018-03-05 16:44:10.1509 INFO  load map success 
+2018-03-05 16:46:24.9839 INFO  load map success 
+2018-03-05 16:46:25.3409 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 16:46:26.6329 ERROR  小车初始化失败System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AGV_V1._0.Algorithm.RouteUtil.VehicleOcuppyNode(ElecMap Elc, Vehicle[] vehicle) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\RouteUtil.cs:行号 59
+   在 AGV_V1._0.VehicleManager.InitialVehicle() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\VehicleManager.cs:行号 259
+   在 AGV_V1._0.Form1.InitialAgv() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Form1.cs:行号 198 
+2018-03-05 16:47:08.9649 INFO  总任务数：0 label5 
+2018-03-05 16:48:25.6959 INFO  load map success 
+2018-03-05 16:48:26.0409 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 16:48:27.2889 ERROR  小车初始化失败System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AGV_V1._0.Algorithm.RouteUtil.VehicleOcuppyNode(ElecMap Elc, Vehicle[] vehicle) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\RouteUtil.cs:行号 59
+   在 AGV_V1._0.VehicleManager.InitialVehicle() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\VehicleManager.cs:行号 259
+   在 AGV_V1._0.Form1.InitialAgv() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Form1.cs:行号 198 
+2018-03-05 16:48:48.6369 INFO  总任务数：0 label5 
+2018-03-05 16:49:05.5019 INFO  load map success 
+2018-03-05 16:49:05.8589 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 16:49:07.0189 ERROR  小车初始化失败System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AGV_V1._0.Algorithm.RouteUtil.VehicleOcuppyNode(ElecMap Elc, Vehicle[] vehicle) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\RouteUtil.cs:行号 59
+   在 AGV_V1._0.VehicleManager.InitialVehicle() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\VehicleManager.cs:行号 259
+   在 AGV_V1._0.Form1.InitialAgv() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Form1.cs:行号 198 
+2018-03-05 16:49:49.4849 INFO  总任务数：0 label5 
+2018-03-05 16:50:04.0749 INFO  load map success 
+2018-03-05 16:50:07.6129 INFO  总任务数：0 label5 
+2018-03-05 16:51:15.7899 INFO  load map success 
+2018-03-05 16:51:16.1649 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 16:51:17.4519 ERROR  小车初始化失败System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AGV_V1._0.Algorithm.RouteUtil.VehicleOcuppyNode(ElecMap Elc, Vehicle[] vehicle) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\RouteUtil.cs:行号 59
+   在 AGV_V1._0.VehicleManager.InitialVehicle() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\VehicleManager.cs:行号 259
+   在 AGV_V1._0.Form1.InitialAgv() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Form1.cs:行号 197 
+2018-03-05 16:51:19.5169 INFO  总任务数：0 label5 
+2018-03-05 16:52:38.8829 INFO  load map success 
+2018-03-05 16:52:39.2429 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 16:52:40.5069 ERROR  小车初始化失败System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AGV_V1._0.Algorithm.RouteUtil.VehicleOcuppyNode(ElecMap Elc, Vehicle[] vehicle) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\RouteUtil.cs:行号 59
+   在 AGV_V1._0.VehicleManager.InitialVehicle() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\VehicleManager.cs:行号 259
+   在 AGV_V1._0.Form1.InitialAgv() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Form1.cs:行号 198 
+2018-03-05 16:52:42.2129 INFO  总任务数：0 label5 
+2018-03-05 16:52:49.2959 INFO  load map success 
+2018-03-05 16:53:33.7729 INFO  load map success 
+2018-03-05 16:53:34.1219 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 16:53:35.2079 ERROR  小车初始化失败System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AGV_V1._0.Algorithm.RouteUtil.VehicleOcuppyNode(ElecMap Elc, Vehicle[] vehicle) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\RouteUtil.cs:行号 59
+   在 AGV_V1._0.VehicleManager.InitialVehicle() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\VehicleManager.cs:行号 259
+   在 AGV_V1._0.Form1.InitialAgv() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Form1.cs:行号 197 
+2018-03-05 17:02:39.5019 INFO  总任务数：0 label5 
+2018-03-05 17:04:27.9379 INFO  load map success 
+2018-03-05 17:04:28.3019 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 17:04:29.5299 ERROR  小车初始化失败System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AGV_V1._0.Algorithm.RouteUtil.VehicleOcuppyNode(ElecMap Elc, Vehicle[] vehicle) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\RouteUtil.cs:行号 59
+   在 AGV_V1._0.VehicleManager.InitialVehicle() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\VehicleManager.cs:行号 259
+   在 AGV_V1._0.Form1.InitialAgv() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Form1.cs:行号 197 
+2018-03-05 17:04:43.0139 INFO  总任务数：0 label5 
+2018-03-05 17:50:13.2729 INFO  load map success 
+2018-03-05 17:50:13.6379 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 17:50:14.9449 ERROR  小车初始化失败System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AGV_V1._0.Algorithm.RouteUtil.VehicleOcuppyNode(ElecMap Elc, Vehicle[] vehicle) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\RouteUtil.cs:行号 59
+   在 AGV_V1._0.VehicleManager.InitialVehicle() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\VehicleManager.cs:行号 259
+   在 AGV_V1._0.Form1.InitialAgv() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Form1.cs:行号 197 
+2018-03-05 17:50:33.2689 INFO  总任务数：0 label5 
+2018-03-05 17:51:50.6699 INFO  load map success 
+2018-03-05 17:51:51.0379 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 17:51:52.2449 ERROR  小车初始化失败System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AGV_V1._0.Algorithm.RouteUtil.VehicleOcuppyNode(ElecMap Elc, Vehicle[] vehicle) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\RouteUtil.cs:行号 59
+   在 AGV_V1._0.VehicleManager.InitialVehicle() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\VehicleManager.cs:行号 259
+   在 AGV_V1._0.Form1.InitialAgv() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Form1.cs:行号 197 
+2018-03-05 17:52:04.3889 INFO  总任务数：0 label5 
+2018-03-05 17:52:21.4549 INFO  load map success 
+2018-03-05 17:52:21.7949 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 17:52:23.0839 ERROR  小车初始化失败System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AGV_V1._0.Algorithm.RouteUtil.VehicleOcuppyNode(ElecMap Elc, Vehicle[] vehicle) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\RouteUtil.cs:行号 59
+   在 AGV_V1._0.VehicleManager.InitialVehicle() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\VehicleManager.cs:行号 259
+   在 AGV_V1._0.Form1.InitialAgv() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Form1.cs:行号 197 
+2018-03-05 17:52:51.0929 INFO  总任务数：0 label5 
+2018-03-05 17:54:03.9099 INFO  load map success 
+2018-03-05 17:54:04.1619 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 17:54:06.8059 ERROR  小车初始化失败System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AGV_V1._0.Algorithm.RouteUtil.VehicleOcuppyNode(ElecMap Elc, Vehicle[] vehicle) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\RouteUtil.cs:行号 59
+   在 AGV_V1._0.VehicleManager.InitialVehicle() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\VehicleManager.cs:行号 259
+   在 AGV_V1._0.Form1.InitialAgv() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Form1.cs:行号 198 
+2018-03-05 17:54:24.1329 INFO  总任务数：0 label5 
+2018-03-05 17:54:34.5549 INFO  load map success 
+2018-03-05 17:55:40.1869 INFO  load map success 
+2018-03-05 17:55:40.4449 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 17:55:49.2149 ERROR  小车初始化失败System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AGV_V1._0.Algorithm.RouteUtil.VehicleOcuppyNode(ElecMap Elc, Vehicle[] vehicle) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\RouteUtil.cs:行号 59
+   在 AGV_V1._0.VehicleManager.InitialVehicle() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\VehicleManager.cs:行号 259
+   在 AGV_V1._0.Form1.InitialAgv() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Form1.cs:行号 198 
+2018-03-05 17:55:50.6609 INFO  总任务数：0 label5 
+2018-03-05 17:58:00.7699 INFO  load map success 
+2018-03-05 17:58:01.0409 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 17:58:02.3639 ERROR  小车初始化失败System.IndexOutOfRangeException: 索引超出了数组界限。
+   在 AGV_V1._0.Algorithm.RouteUtil.VehicleOcuppyNode(ElecMap Elc, Vehicle[] vehicle) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\RouteUtil.cs:行号 59
+   在 AGV_V1._0.VehicleManager.InitialVehicle() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\VehicleManager.cs:行号 259
+   在 AGV_V1._0.Form1.InitialAgv() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Form1.cs:行号 198 
+2018-03-05 17:59:17.5409 INFO  load map success 
+2018-03-05 18:00:13.6349 INFO  load map success 
+2018-03-05 18:00:42.0969 INFO  load map success 
+2018-03-05 18:00:42.3539 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 18:00:42.4559 INFO  *--------------------------------------------------------------* 
+2018-03-05 18:00:42.4559 INFO  当前工作小车1辆 
+2018-03-05 18:00:42.4559 INFO  开始运行时间：2018/3/5 18:00:42 
+2018-03-05 18:00:55.2209 INFO  总任务数：0 VehicleManager线程开始 
+2018-03-05 18:01:02.7799 INFO  load map success 
+2018-03-05 18:01:03.0159 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 18:01:03.0779 INFO  *--------------------------------------------------------------* 
+2018-03-05 18:01:03.0779 INFO  当前工作小车1辆 
+2018-03-05 18:01:03.0999 INFO  开始运行时间：2018/3/5 18:01:03 
+2018-03-05 18:01:18.4049 INFO  总任务数：0 VehicleManager线程开始 
+2018-03-05 18:02:03.8389 INFO  load map success 
+2018-03-05 18:02:04.0879 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 18:02:04.1749 INFO  *--------------------------------------------------------------* 
+2018-03-05 18:02:04.1749 INFO  当前工作小车1辆 
+2018-03-05 18:02:04.1749 INFO  开始运行时间：2018/3/5 18:02:04 
+2018-03-05 18:02:11.5819 INFO  总任务数：0 VehicleManager线程开始 
+2018-03-05 19:08:03.4989 INFO  load map success 
+2018-03-05 19:08:03.7489 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 19:08:03.8359 INFO  *--------------------------------------------------------------* 
+2018-03-05 19:08:03.8359 INFO  当前工作小车1辆 
+2018-03-05 19:08:03.8359 INFO  开始运行时间：2018/3/5 19:08:03 
+2018-03-05 19:08:07.7249 INFO  总任务数：0 VehicleManager线程开始 
+2018-03-05 19:33:30.9959 INFO  load map success 
+2018-03-05 19:33:31.2249 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 19:33:31.2869 INFO  *--------------------------------------------------------------* 
+2018-03-05 19:33:31.2869 INFO  当前工作小车1辆 
+2018-03-05 19:33:31.2869 INFO  开始运行时间：2018/3/5 19:33:31 
+2018-03-05 19:33:35.3589 INFO  总任务数：0 VehicleManager线程开始 
+2018-03-05 19:35:14.5769 INFO  load map success 
+2018-03-05 19:35:14.8319 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 19:35:14.8959 INFO  *--------------------------------------------------------------* 
+2018-03-05 19:35:14.8959 INFO  当前工作小车1辆 
+2018-03-05 19:35:14.8959 INFO  开始运行时间：2018/3/5 19:35:14 
+2018-03-05 19:35:16.4779 INFO  总任务数：0 VehicleManager线程开始 
+2018-03-05 19:40:43.7719 INFO  load map success 
+2018-03-05 19:40:44.0169 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 19:40:44.1049 INFO  *--------------------------------------------------------------* 
+2018-03-05 19:40:44.1049 INFO  当前工作小车1辆 
+2018-03-05 19:40:44.1049 INFO  开始运行时间：2018/3/5 19:40:44 
+2018-03-05 19:40:45.8379 INFO  总任务数：0 VehicleManager线程开始 
+2018-03-05 19:59:53.7379 INFO  load map success 
+2018-03-05 19:59:54.6059 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 19:59:54.6709 INFO  *--------------------------------------------------------------* 
+2018-03-05 19:59:54.6709 INFO  当前工作小车10辆 
+2018-03-05 19:59:54.6709 INFO  开始运行时间：2018/3/5 19:59:54 
+2018-03-05 20:00:10.8459 INFO  总任务数：0 VehicleManager线程开始 
+2018-03-05 20:02:00.4129 INFO  load map success 
+2018-03-05 20:02:00.7089 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 20:02:00.8139 INFO  *--------------------------------------------------------------* 
+2018-03-05 20:02:00.8139 INFO  当前工作小车1辆 
+2018-03-05 20:02:00.8139 INFO  开始运行时间：2018/3/5 20:02:00 
+2018-03-05 20:02:04.2849 INFO  总任务数：0 VehicleManager线程开始 
+2018-03-05 20:24:19.8129 INFO  load map success 
+2018-03-05 20:24:20.0739 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 20:24:20.1349 INFO  *--------------------------------------------------------------* 
+2018-03-05 20:24:20.1359 INFO  当前工作小车1辆 
+2018-03-05 20:24:20.1359 INFO  开始运行时间：2018/3/5 20:24:20 
+2018-03-05 20:24:22.0519 INFO  总任务数：0 VehicleManager线程开始 
+2018-03-05 20:24:26.8119 INFO  load map success 
+2018-03-05 20:24:27.0679 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 20:24:27.1549 INFO  *--------------------------------------------------------------* 
+2018-03-05 20:24:27.1569 INFO  当前工作小车1辆 
+2018-03-05 20:24:27.1569 INFO  开始运行时间：2018/3/5 20:24:27 
+2018-03-05 20:25:23.0219 INFO  总任务数：0 VehicleManager线程开始 
+2018-03-05 20:25:57.4219 INFO  load map success 
+2018-03-05 20:25:57.6819 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 20:25:57.7429 INFO  *--------------------------------------------------------------* 
+2018-03-05 20:25:57.7429 INFO  当前工作小车1辆 
+2018-03-05 20:25:57.7459 INFO  开始运行时间：2018/3/5 20:25:57 
+2018-03-05 20:26:00.3929 INFO  总任务数：0 VehicleManager线程开始 
+2018-03-05 20:26:46.1999 INFO  load map success 
+2018-03-05 20:26:46.4659 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 20:26:46.5359 INFO  *--------------------------------------------------------------* 
+2018-03-05 20:26:46.5359 INFO  当前工作小车1辆 
+2018-03-05 20:26:46.5359 INFO  开始运行时间：2018/3/5 20:26:46 
+2018-03-05 20:26:48.8219 INFO  总任务数：0 VehicleManager线程开始 
+2018-03-05 20:31:20.9349 INFO  load map success 
+2018-03-05 20:31:21.1879 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 20:31:21.2719 INFO  *--------------------------------------------------------------* 
+2018-03-05 20:31:21.2719 INFO  当前工作小车1辆 
+2018-03-05 20:31:21.2719 INFO  开始运行时间：2018/3/5 20:31:21 
+2018-03-05 20:33:36.7019 INFO  总任务数：0 VehicleManager线程开始 
+2018-03-05 20:34:21.3589 INFO  load map success 
+2018-03-05 20:34:21.6989 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 20:34:21.7809 INFO  *--------------------------------------------------------------* 
+2018-03-05 20:34:21.7809 INFO  当前工作小车1辆 
+2018-03-05 20:34:21.7809 INFO  开始运行时间：2018/3/5 20:34:21 
+2018-03-05 20:34:23.7689 INFO  总任务数：0 VehicleManager线程开始 
+2018-03-05 21:11:14.5499 INFO  load map success 
+2018-03-05 21:11:14.8279 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 21:11:14.9049 INFO  *--------------------------------------------------------------* 
+2018-03-05 21:11:14.9049 INFO  当前工作小车1辆 
+2018-03-05 21:11:14.9049 INFO  开始运行时间：2018/3/5 21:11:14 
+2018-03-05 21:12:01.6559 INFO  load map success 
+2018-03-05 21:12:02.0009 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 21:12:02.0719 INFO  *--------------------------------------------------------------* 
+2018-03-05 21:12:02.0719 INFO  当前工作小车1辆 
+2018-03-05 21:12:02.0719 INFO  开始运行时间：2018/3/5 21:12:02 
+2018-03-05 21:12:42.6179 INFO  load map success 
+2018-03-05 21:12:42.9189 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 21:12:42.9959 INFO  *--------------------------------------------------------------* 
+2018-03-05 21:12:42.9959 INFO  当前工作小车4辆 
+2018-03-05 21:12:42.9959 INFO  开始运行时间：2018/3/5 21:12:42 
+2018-03-05 21:13:05.6689 INFO  load map success 
+2018-03-05 21:13:05.9469 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 21:13:06.0409 INFO  *--------------------------------------------------------------* 
+2018-03-05 21:13:06.0439 INFO  当前工作小车4辆 
+2018-03-05 21:13:06.0439 INFO  开始运行时间：2018/3/5 21:13:06 
+2018-03-05 21:13:44.0819 INFO  load map success 
+2018-03-05 21:13:44.3699 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 21:13:44.4479 INFO  *--------------------------------------------------------------* 
+2018-03-05 21:13:44.4479 INFO  当前工作小车5辆 
+2018-03-05 21:13:44.4479 INFO  开始运行时间：2018/3/5 21:13:44 
+2018-03-05 21:13:47.1529 ERROR  SearchRoute线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 Agv.PathPlanning.AgvPathPlanning.initGraph(ElecMap elc, List`1 scanner, List`1 lockNode, Int32 v_num, Int32 sx, Int32 sy, Int32 dx, Int32 dy, Direction direction) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Algorithm\AgvPathPlanning.cs:行号 215
+   在 Agv.PathPlanning.AgvPathPlanning.Search(ElecMap elc, List`1 scannerNode, List`1 lockNode, Int32 v_num, Int32 width, Int32 height, Int32 firstX, Int32 firstY, Int32 endX, Int32 endY, Direction direction) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Algorithm\AgvPathPlanning.cs:行号 614
+   在 AGV_V1._0.SearchManager.SearchRoute(Vehicle v) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\SearchManager.cs:行号 93
+   在 AGV_V1._0.ThreadCode.SearchRouteThread.SearchRoute(SearchData searchData) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Network\ThreadCode\SearchRouteThread.cs:行号 95
+   在 AGV_V1._0.ThreadCode.SearchRouteThread.Run() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Network\ThreadCode\SearchRouteThread.cs:行号 47
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-03-05 21:14:02.8319 INFO  总任务数：0 VehicleManager线程开始 
+2018-03-05 21:16:39.8179 INFO  load map success 
+2018-03-05 21:16:40.1079 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 21:16:40.1769 INFO  *--------------------------------------------------------------* 
+2018-03-05 21:16:40.1769 INFO  当前工作小车5辆 
+2018-03-05 21:16:40.1769 INFO  开始运行时间：2018/3/5 21:16:40 
+2018-03-05 21:16:41.9119 ERROR  SearchRoute线程执行出错:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 Agv.PathPlanning.AgvPathPlanning.initGraph(ElecMap elc, List`1 scanner, List`1 lockNode, Int32 v_num, Int32 sx, Int32 sy, Int32 dx, Int32 dy, Direction direction) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Algorithm\AgvPathPlanning.cs:行号 215
+   在 Agv.PathPlanning.AgvPathPlanning.Search(ElecMap elc, List`1 scannerNode, List`1 lockNode, Int32 v_num, Int32 width, Int32 height, Int32 firstX, Int32 firstY, Int32 endX, Int32 endY, Direction direction) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Algorithm\AgvPathPlanning.cs:行号 614
+   在 AGV_V1._0.SearchManager.SearchRoute(Vehicle v) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Agv\SearchManager.cs:行号 93
+   在 AGV_V1._0.ThreadCode.SearchRouteThread.SearchRoute(SearchData searchData) 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Network\ThreadCode\SearchRouteThread.cs:行号 95
+   在 AGV_V1._0.ThreadCode.SearchRouteThread.Run() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Network\ThreadCode\SearchRouteThread.cs:行号 47
+   在 AGV_V1._0.Network.ThreadCode.BaseThread.StartThread() 位置 g:\Agv\agvCodeRepository\ManagerAndConnEnd\ManagerAndConnEnd\Network\ThreadCode\BaseThread.cs:行号 40 
+2018-03-05 21:17:47.1269 INFO  load map success 
+2018-03-05 21:17:47.3849 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 21:17:47.4689 INFO  *--------------------------------------------------------------* 
+2018-03-05 21:17:47.4709 INFO  当前工作小车5辆 
+2018-03-05 21:17:47.4709 INFO  开始运行时间：2018/3/5 21:17:47 
+2018-03-05 21:18:58.9769 INFO  load map success 
+2018-03-05 21:18:59.2439 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 21:18:59.3329 INFO  *--------------------------------------------------------------* 
+2018-03-05 21:18:59.3329 INFO  当前工作小车5辆 
+2018-03-05 21:18:59.3329 INFO  开始运行时间：2018/3/5 21:18:59 
+2018-03-05 21:19:49.8619 INFO  load map success 
+2018-03-05 21:19:50.1229 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 21:19:50.2069 INFO  *--------------------------------------------------------------* 
+2018-03-05 21:19:50.2069 INFO  当前工作小车5辆 
+2018-03-05 21:19:50.2069 INFO  开始运行时间：2018/3/5 21:19:50 
+2018-03-05 21:20:10.9969 INFO  总任务数：0 VehicleManager线程开始 
+2018-03-05 22:42:13.4319 INFO  load map success 
+2018-03-05 22:42:13.6959 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 22:42:13.7729 INFO  *--------------------------------------------------------------* 
+2018-03-05 22:42:13.7739 INFO  当前工作小车5辆 
+2018-03-05 22:42:13.7739 INFO  开始运行时间：2018/3/5 22:42:13 
+2018-03-05 22:42:27.5089 INFO  总任务数：0 VehicleManager线程开始 
+2018-03-05 22:56:42.0019 INFO  load map success 
+2018-03-05 22:56:42.2819 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 22:56:42.3489 INFO  *--------------------------------------------------------------* 
+2018-03-05 22:56:42.3489 INFO  当前工作小车5辆 
+2018-03-05 22:56:42.3739 INFO  开始运行时间：2018/3/5 22:56:42 
+2018-03-05 22:56:56.4289 INFO  总任务数：0 VehicleManager线程开始 
+2018-03-05 23:11:53.7489 INFO  load map success 
+2018-03-05 23:11:54.0089 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 23:11:54.0729 INFO  *--------------------------------------------------------------* 
+2018-03-05 23:11:54.0729 INFO  当前工作小车5辆 
+2018-03-05 23:11:54.0729 INFO  开始运行时间：2018/3/5 23:11:54 
+2018-03-05 23:12:04.1489 INFO  总任务数：0 VehicleManager线程开始 
+2018-03-05 23:13:53.2719 INFO  load map success 
+2018-03-05 23:13:53.5339 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 23:13:53.5959 INFO  *--------------------------------------------------------------* 
+2018-03-05 23:13:53.5959 INFO  当前工作小车5辆 
+2018-03-05 23:13:53.5959 INFO  开始运行时间：2018/3/5 23:13:53 
+2018-03-05 23:16:06.5489 INFO  load map success 
+2018-03-05 23:16:06.7989 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 23:16:06.8859 INFO  *--------------------------------------------------------------* 
+2018-03-05 23:16:06.9079 INFO  当前工作小车5辆 
+2018-03-05 23:16:06.9079 INFO  开始运行时间：2018/3/5 23:16:06 
+2018-03-05 23:20:02.1339 INFO  load map success 
+2018-03-05 23:20:02.3929 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 23:20:02.4559 INFO  *--------------------------------------------------------------* 
+2018-03-05 23:20:02.4559 INFO  当前工作小车5辆 
+2018-03-05 23:20:02.4559 INFO  开始运行时间：2018/3/5 23:20:02 
+2018-03-05 23:20:10.7839 INFO  总任务数：0 小车4:(7，6)->(6，6)没有搜索到路径， 
+2018-03-05 23:20:47.3129 INFO  load map success 
+2018-03-05 23:20:47.5679 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 23:20:47.6329 INFO  *--------------------------------------------------------------* 
+2018-03-05 23:20:47.6329 INFO  当前工作小车5辆 
+2018-03-05 23:20:47.6329 INFO  开始运行时间：2018/3/5 23:20:47 
+2018-03-05 23:20:55.9809 INFO  总任务数：0 小车4:(7，6)->(6，6)没有搜索到路径， 
+2018-03-05 23:20:59.4959 INFO  load map success 
+2018-03-05 23:20:59.7529 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 23:20:59.8239 INFO  *--------------------------------------------------------------* 
+2018-03-05 23:20:59.8449 INFO  当前工作小车5辆 
+2018-03-05 23:20:59.8449 INFO  开始运行时间：2018/3/5 23:20:59 
+2018-03-05 23:21:04.1339 INFO  总任务数：0 VehicleManager线程开始 
+2018-03-05 23:22:14.2239 INFO  load map success 
+2018-03-05 23:22:14.4919 WARN  agv文件中实际小车的数量大于SUM的数值，加载小车的前SUM行 
+2018-03-05 23:22:14.5589 INFO  *--------------------------------------------------------------* 
+2018-03-05 23:22:14.5589 INFO  当前工作小车5辆 
+2018-03-05 23:22:14.5589 INFO  开始运行时间：2018/3/5 23:22:14 
+2018-03-05 23:22:19.3969 INFO  总任务数：0 VehicleManager线程开始 

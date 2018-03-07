@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="d:\program files (x86)\microsoft visual studio 12.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="12.0">
+ <Targets>
+  <Target Name="G:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\bin\Debug\AGV V1.0.exe">
+   <Modules>
+    <Module Name="agv v1.0.exe">
+     <Namespaces>
+      <Namespace Name="AGV_V1._0">
+       <Types>
+        <Type Name="Form1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Dispose(System.Boolean)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="newSurface" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2018-03-02 08:01:36Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="g:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd" File="Form1.Designer.cs" Line="15">'Form1' 包含 IDisposable 类型的字段 'Form1.newSurface':  'Bitmap'。请更改 'Form1' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+            <Message Id="picShowSurface" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2018-03-02 08:01:36Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="g:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd" File="Form1.Designer.cs" Line="15">'Form1' 包含 IDisposable 类型的字段 'Form1.picShowSurface':  'Bitmap'。请更改 'Form1' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+            <Message Id="surface" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2018-03-02 08:01:36Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="g:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd" File="Form1.Designer.cs" Line="15">'Form1' 包含 IDisposable 类型的字段 'Form1.surface':  'Bitmap'。请更改 'Form1' 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="AGV_V1._0.DataBase">
+       <Types>
+        <Type Name="Sql" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Connection" Kind="Property" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Accessors>
+            <Accessor Name="#get_Connection()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2018-03-02 08:01:36Z" FixCategory="DependsOnFix">
+               <Issue Certainty="75" Level="Warning" Path="g:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\DataBase" File="Sql.cs" Line="38">可以在方法 'Sql.Connection.get()' 中多次释放对象 'conn'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 38</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#ExecuteCommand(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="检查 SQL 查询是否存在安全漏洞" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-03-02 08:01:36Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="g:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\DataBase" File="Sql.cs" Line="58">传递给 'Sql.ExecuteCommand(string)' 中的 'SqlCommand.SqlCommand(string, SqlConnection)' 的查询字符串可能包含以下变量 'safeSql'。如果其中的任意变量可能来自用户输入，请考虑使用存储过程或参数化 SQL 查询，而不是通过字符串串联来生成查询。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetDataSet(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="检查 SQL 查询是否存在安全漏洞" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-03-02 08:01:36Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="g:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\DataBase" File="Sql.cs" Line="47">传递给 'Sql.GetDataSet(string)' 中的 'SqlCommand.SqlCommand(string, SqlConnection)' 的查询字符串可能包含以下变量 'safeSql'。如果其中的任意变量可能来自用户输入，请考虑使用存储过程或参数化 SQL 查询，而不是通过字符串串联来生成查询。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="AGVSocket.Network">
+       <Types>
+        <Type Name="AgvServerManager" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#server_ClientConnected(System.Object,Cowboy.Sockets.TcpClientConnectedEventArgs)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="为格式化方法提高正确的参数" Category="Microsoft.Usage" CheckId="CA2241" Status="Active" Created="2018-03-02 08:01:36Z" FixCategory="DependsOnFix">
+             <Issue Name="MissingFormatItem" Certainty="75" Level="Warning" Path="g:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\Network\Manager" File="AgvServerManager.cs" Line="45">方法 'AgvServerManager.server_ClientConnected(object, TcpClientConnectedEventArgs)' 调用 'string.Format(string, object)' 并且不为参数 "1" 提供格式项。提供的格式字符串为:“"小车连接成功，"”</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#server_ClientDisconnected(System.Object,Cowboy.Sockets.TcpClientDisconnectedEventArgs)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="为格式化方法提高正确的参数" Category="Microsoft.Usage" CheckId="CA2241" Status="Active" Created="2018-03-02 08:01:36Z" FixCategory="DependsOnFix">
+             <Issue Name="MissingFormatItem" Certainty="75" Level="Warning" Path="g:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\Network\Manager" File="AgvServerManager.cs" Line="52">方法 'AgvServerManager.server_ClientDisconnected(object, TcpClientDisconnectedEventArgs)' 调用 'string.Format(string, object)' 并且不为参数 "1" 提供格式项。提供的格式字符串为:“"小车断开连接，"”</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="AGVSocket.Network.Packet">
+       <Types>
+        <Type Name="AgvInfoPacket" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor(System.Byte[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2018-03-02 08:01:36Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="g:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\Network\AgvNetwork\Packet" File="AgvInfoPacket.cs" Line="20">'AgvInfoPacket.AgvInfoPacket(byte[])' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;AgvInfoPacket..ctor(Byte[])&#xD;&#xA;ReceiveBasePacket.NeedLen():Byte。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ReceiveBasePacket" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor(System.String,System.Byte[])" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2018-03-02 08:01:36Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="g:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\Network\AgvNetwork\Packet" File="ReceiveBasePacket.cs" Line="14">'ReceiveBasePacket.ReceiveBasePacket(string, byte[])' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;ReceiveBasePacket..ctor(String, Byte[])&#xD;&#xA;ReceiveBasePacket.NeedLen():Byte。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="RunPacket" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor(System.Byte,System.UInt16,AGVSocket.Network.EnumType.MoveDirection,System.UInt16,AGVSocket.Network.Destination)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2018-03-02 08:01:36Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="g:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\Network\AgvNetwork\Packet" File="RunPacket.cs" Line="30">'RunPacket.RunPacket(byte, ushort, MoveDirection, ushort, Destination)' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;RunPacket..ctor(Byte, UInt16, MoveDirection, UInt16, Destination)&#xD;&#xA;BasePacket.set_Header(UInt16):Void&#xD;&#xA;SendBasePacket.NeedLen():Byte。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SwervePacket" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor(System.Byte,System.UInt16,AGVSocket.Network.AgvDriftAngle)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2018-03-02 08:01:36Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="g:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\Network\AgvNetwork\Packet" File="SwervePacket.cs" Line="20">'SwervePacket.SwervePacket(byte, ushort, AgvDriftAngle)' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;SwervePacket..ctor(Byte, UInt16, AgvDriftAngle)&#xD;&#xA;BasePacket.set_Header(UInt16):Void&#xD;&#xA;SendBasePacket.NeedLen():Byte。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SysResponsePacket" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor(System.Byte,System.UInt16,System.Byte,AGVSocket.Network.EnumType.ResponseState)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2018-03-02 08:01:36Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="g:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\Network\AgvNetwork\Packet" File="SysResponsePacket.cs" Line="18">'SysResponsePacket.SysResponsePacket(byte, ushort, byte, ResponseState)' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;SysResponsePacket..ctor(Byte, UInt16, Byte, ResponseState)&#xD;&#xA;BasePacket.set_Header(UInt16):Void&#xD;&#xA;SendBasePacket.NeedLen():Byte。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TrayPacket" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor(System.Byte,System.UInt16,AGVSocket.Network.EnumType.TrayMotion)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2018-03-02 08:01:36Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="g:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\Network\AgvNetwork\Packet" File="TrayPacket.cs" Line="18">'TrayPacket.TrayPacket(byte, ushort, TrayMotion)' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;TrayPacket..ctor(Byte, UInt16, TrayMotion)&#xD;&#xA;BasePacket.set_Header(UInt16):Void&#xD;&#xA;SendBasePacket.NeedLen():Byte。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="DataBase">
+       <Types>
+        <Type Name="SqlHelper" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ExecNonQuery(System.Data.SqlClient.SqlConnection,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="检查 SQL 查询是否存在安全漏洞" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-03-02 08:01:36Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="g:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\DataBase" File="SqlHelper.cs" Line="143">传递给 'SqlHelper.ExecNonQuery(SqlConnection, string)' 中的 'SqlCommand.SqlCommand(string, SqlConnection)' 的查询字符串可能包含以下变量 'cmdTxt'。如果其中的任意变量可能来自用户输入，请考虑使用存储过程或参数化 SQL 查询，而不是通过字符串串联来生成查询。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ExecProcedure(System.Data.SqlClient.SqlConnection,System.String,System.Data.SqlClient.SqlParameter[]&amp;)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="检查 SQL 查询是否存在安全漏洞" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-03-02 08:01:36Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="g:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\DataBase" File="SqlHelper.cs" Line="256">传递给 'SqlHelper.ExecProcedure(SqlConnection, string, ref SqlParameter[])' 中的 'SqlCommand.CommandText.set(string)' 的查询字符串可能包含以下变量 'procedureName'。如果其中的任意变量可能来自用户输入，请考虑使用存储过程或参数化 SQL 查询，而不是通过字符串串联来生成查询。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ExecScalar(System.Data.SqlClient.SqlConnection,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="检查 SQL 查询是否存在安全漏洞" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-03-02 08:01:36Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="g:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\DataBase" File="SqlHelper.cs" Line="189">传递给 'SqlHelper.ExecScalar(SqlConnection, string)' 中的 'SqlCommand.SqlCommand(string, SqlConnection)' 的查询字符串可能包含以下变量 'cmdTxt'。如果其中的任意变量可能来自用户输入，请考虑使用存储过程或参数化 SQL 查询，而不是通过字符串串联来生成查询。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetDataSet(System.Data.SqlClient.SqlConnection,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="检查 SQL 查询是否存在安全漏洞" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-03-02 08:01:36Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="g:\Agv\agvCodeRepository\agvManager\ManagerAndConnEnd\ManagerAndConnEnd\DataBase" File="SqlHelper.cs" Line="304">传递给 'SqlHelper.GetDataSet(SqlConnection, string)' 中的 'SqlDataAdapter.SqlDataAdapter(string, SqlConnection)' 的查询字符串可能包含以下变量 'cmdTxt'。如果其中的任意变量可能来自用户输入，请考虑使用存储过程或参数化 SQL 查询，而不是通过字符串串联来生成查询。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213">
+   <Name>应释放可释放的字段</Name>
+   <Description>如果实现了 IDisposable 的类型拥有同样实现 IDisposable 的字段，则封装类型的 Dispose() 实现应对每个可释放字段调用 Dispose()。</Description>
+   <Resolution Name="Default">{0} 包含 IDisposable 类型的字段 {1}:  {2}。请更改 {0} 的 Dispose 方法，使其针对该字段调用 Dispose 或 Close。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182328.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214">
+   <Name>不要在构造函数中调用可重写的方法</Name>
+   <Description>不应通过构造函数调用类中定义的虚方法。如果某个派生类已重写该虚方法，则将在调用派生类的构造函数前，调用此派生类重写后的方法。</Description>
+   <Resolution Name="Default">{0} 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: {1}。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182331.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="usagerules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202">
+   <Name>不要多次释放对象</Name>
+   <Description>可以多次调用正确实现的 Dispose 方法，而不会引发异常。但是，并不保证所有情况下都会如此。若要避免生成 System.ObjectDisposedException，您不应对一个对象多次调用 Dispose。</Description>
+   <Resolution Name="Default">可以在方法 {1} 中多次释放对象 {0}。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 38</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182334.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="为格式化方法提高正确的参数" Category="Microsoft.Usage" CheckId="CA2241">
+   <Name>为格式化方法提高正确的参数</Name>
+   <Description>为 String.Format 调用提供正确的参数数量。</Description>
+   <Resolution Name="MissingFormatItem">方法 {0} 调用 {1} 并且不为参数 {2} 提供格式项。提供的格式字符串为:“{3}”</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182361.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="检查 SQL 查询是否存在安全漏洞" Category="Microsoft.Security" CheckId="CA2100">
+   <Name>检查 SQL 查询是否存在安全漏洞</Name>
+   <Description>通过用户输入生成的 SQL 命令字符串容易受到 SQL 注入式攻击。Microsoft SQL Server 和其他数据库服务器支持存储过程和参数化 SQL 查询，这将降低受到注入式攻击的风险。</Description>
+   <Resolution Name="WithNonLiterals">传递给 {1} 中的 {0} 的查询字符串可能包含以下变量 {2}。如果其中的任意变量可能来自用户输入，请考虑使用存储过程或参数化 SQL 查询，而不是通过字符串串联来生成查询。</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182310.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="12.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">类别</String>
+  <String Key="Certainty">确定性</String>
+  <String Key="CollapseAll">全部折叠</String>
+  <String Key="CheckId">检查 ID</String>
+  <String Key="Error">错误</String>
+  <String Key="Errors">错误</String>
+  <String Key="ExpandAll">全部展开</String>
+  <String Key="Help">帮助</String>
+  <String Key="Line">行</String>
+  <String Key="Messages">消息</String>
+  <String Key="LocationNotStoredInPdb">[位置未存储在 Pdb 中]</String>
+  <String Key="Project">项目</String>
+  <String Key="Resolution">解析</String>
+  <String Key="Rule">规则</String>
+  <String Key="RuleFile">规则文件</String>
+  <String Key="RuleDescription">规则说明</String>
+  <String Key="Source">源</String>
+  <String Key="Status">状态</String>
+  <String Key="Target">目标</String>
+  <String Key="Warning">警告</String>
+  <String Key="Warnings">警告</String>
+  <String Key="ReportTitle">代码分析报告</String>
+ </Localized>
+</FxCopReport>
