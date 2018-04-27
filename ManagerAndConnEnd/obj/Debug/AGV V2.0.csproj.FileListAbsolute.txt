@@ -57,3 +57,19 @@ D:\0研究生\AGV\程序2\实体agv\agvManagerAndConnEnd\ManagerAndConnEnd\Manag
 D:\0研究生\AGV\程序2\实体agv\agvManagerAndConnEnd\ManagerAndConnEnd\ManagerAndConnEnd\obj\Debug\AGV V2.0.csproj.CopyComplete
 D:\0研究生\AGV\程序2\实体agv\agvManagerAndConnEnd\ManagerAndConnEnd\ManagerAndConnEnd\obj\Debug\AGV V1.0.exe
 D:\0研究生\AGV\程序2\实体agv\agvManagerAndConnEnd\ManagerAndConnEnd\ManagerAndConnEnd\obj\Debug\AGV V1.0.pdb
+G:\Agv\AGV\程序2\agv实体\20180309agvManagerAndConn1End\ManagerAndConnEnd\bin\Debug\AGV V1.0.exe.config
+G:\Agv\AGV\程序2\agv实体\20180309agvManagerAndConn1End\ManagerAndConnEnd\obj\Debug\AGV V1.0.exe
+G:\Agv\AGV\程序2\agv实体\20180309agvManagerAndConn1End\ManagerAndConnEnd\obj\Debug\AGV V1.0.pdb
+G:\Agv\AGV\程序2\agv实体\20180309agvManagerAndConn1End\ManagerAndConnEnd\bin\Debug\AGV V1.0.exe
+G:\Agv\AGV\程序2\agv实体\20180309agvManagerAndConn1End\ManagerAndConnEnd\bin\Debug\AGV V1.0.pdb
+G:\Agv\AGV\程序2\agv实体\20180309agvManagerAndConn1End\ManagerAndConnEnd\bin\Debug\log4net.dll
+G:\Agv\AGV\程序2\agv实体\20180309agvManagerAndConn1End\ManagerAndConnEnd\bin\Debug\Newtonsoft.Json.dll
+G:\Agv\AGV\程序2\agv实体\20180309agvManagerAndConn1End\ManagerAndConnEnd\bin\Debug\NLog.dll
+G:\Agv\AGV\程序2\agv实体\20180309agvManagerAndConn1End\ManagerAndConnEnd\bin\Debug\log4net.xml
+G:\Agv\AGV\程序2\agv实体\20180309agvManagerAndConn1End\ManagerAndConnEnd\bin\Debug\NLog.xml
+G:\Agv\AGV\程序2\agv实体\20180309agvManagerAndConn1End\ManagerAndConnEnd\obj\Debug\AGV V2.0.csprojResolveAssemblyReference.cache
+G:\Agv\AGV\程序2\agv实体\20180309agvManagerAndConn1End\ManagerAndConnEnd\obj\Debug\AGV_V1._0.Form1.resources
+G:\Agv\AGV\程序2\agv实体\20180309agvManagerAndConn1End\ManagerAndConnEnd\obj\Debug\AGV_V1._0.Properties.Resources.resources
+G:\Agv\AGV\程序2\agv实体\20180309agvManagerAndConn1End\ManagerAndConnEnd\obj\Debug\AGV V2.0.csproj.GenerateResource.cache
+G:\Agv\AGV\程序2\agv实体\20180309agvManagerAndConn1End\ManagerAndConnEnd\obj\Debug\AGV V2.0.csproj.CoreCompileInputs.cache
+G:\Agv\AGV\程序2\agv实体\20180309agvManagerAndConn1End\ManagerAndConnEnd\obj\Debug\AGV V2.0.csproj.CopyComplete
